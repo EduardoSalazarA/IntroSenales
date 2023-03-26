@@ -17,7 +17,7 @@ Bioseñal es un termino que engloba a señales electricas producidas por <br/>
 una actividad biológica que provienen de tejidos y órganos del cuerpo <br/>
 humano.Comunmente, las señales que son más usadas son: <br/>
 <ul>
-<li> <b>Señales EEG:</b> Corresponden a una señal proveniente de la actividad <br/> <img src="Images/Sin título.png" align="right" width="240" height="240"> 
+<li> <b>Señales EEG:</b> Corresponden a una señal proveniente de la actividad <br/> <img src="Imagenes/senales.png" align="right" width="240" height="240"> 
   eléctrica de las células cerebrales durante la polarización de las <br/>
   neuronas. <br/> </li>
 <li> <b>Señales ECG o EKG:</b> Estas señales son producidas por la actividad <br/>
@@ -37,6 +37,7 @@ En el proyecto se busca contruir un prototipo de baja o media fidelidad con el c
 <h2 id="Materiales">Materiales</h1>
 
 <h2 id="metodo">Metodología</h1>
+<img src="Imagenes/metodologia.jpg" align="right" width="240" height="240"> 
 
 <h2 id="tematica">Temática del proyecto</h1>
 <p>El proyecto tiene como finalidad aplicar conocimientos de adquisicion de señales biomédicas teniendo en cuenta los principios fisiológicos, implementar algoritmos de procesamiento de bioseñales mediante una computadora o un microcontrolador y aplicar principios básicos de contruccion de sistemas de información en telemedicina para solucionar una problemática en ingeniería mediante el desarrollo de un prototipo de baja/mediana fidelidad.
