@@ -1,5 +1,5 @@
 # Introducción a Señales Biomédicas
-Este es el repositorio del grupo 12 para el curso Introducción a Señales Biomédicas del ciclo 2023-1.
+<p>Este es el repositorio del grupo 12 para el curso Introducción a Señales Biomédicas del ciclo 2023-1.</p>
 <img src="Imagenes/integrantes.jpg" width="800" height="450">
 
 # Tabla de Contenidos
