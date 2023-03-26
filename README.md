@@ -37,7 +37,7 @@ En el proyecto se busca contruir un prototipo de baja o media fidelidad con el c
 <h2 id="Materiales">Materiales</h1>
 
 <h2 id="metodo">Metodología</h1>
-<img src="Imagenes/metodologia.jpg" align="right" width="240" height="240"> 
+<img src="Imagenes/metodologia.jpg" width="1460" height="1600"> 
 
 <h2 id="tematica">Temática del proyecto</h1>
 <p>El proyecto tiene como finalidad aplicar conocimientos de adquisicion de señales biomédicas teniendo en cuenta los principios fisiológicos, implementar algoritmos de procesamiento de bioseñales mediante una computadora o un microcontrolador y aplicar principios básicos de contruccion de sistemas de información en telemedicina para solucionar una problemática en ingeniería mediante el desarrollo de un prototipo de baja/mediana fidelidad.
