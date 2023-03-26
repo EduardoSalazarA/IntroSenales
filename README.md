@@ -74,10 +74,10 @@ Algunos ejemplos de proyectos que involucren la adquisicion de señales bioeléc
 <i>""</i> </li>
 
 <h2 id="docentes">Docentes</h1>
-<li> <b>Mg. Lewis De la Cruz Rodriguez (umbert.de.la.cruz@upch.pe):</b> </br>
-<li> <b>Mg. Moises Meza Rodriguez (moises.meza@upch.pe):</b> </br>
-<li> <b>Doc. Avid Roman Gonzalez (avid.roman-gonzalez@ieee.org):</b> </br>
-<li> <b>Ing. Julissa Venancio Huerta (julissa.venancio@upch.pe):</b> </br>
-<li> <b>Lic. Jose Alonso Cáceres del Aguila (jo.alonsok@gmail.com):</b> </br>
+<li> <b>Mg. Lewis De la Cruz Rodriguez (umbert.de.la.cruz@upch.pe)</b> </br>
+<li> <b>Mg. Moises Meza Rodriguez (moises.meza@upch.pe)</b> </br>
+<li> <b>Doc. Avid Roman Gonzalez (avid.roman-gonzalez@ieee.org)</b> </br>
+<li> <b>Ing. Julissa Venancio Huerta (julissa.venancio@upch.pe)</b> </br>
+<li> <b>Lic. Jose Alonso Cáceres del Aguila (jo.alonsok@gmail.com)</b> </br>
 
 <h2 id="cronograma">Cronograma</h1>
