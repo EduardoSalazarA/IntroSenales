@@ -97,3 +97,31 @@ Algunos ejemplos de proyectos que involucren la adquisicion de señales bioeléc
 <li> <b>Lic. Jose Alonso Cáceres del Aguila (jo.alonsok@gmail.com)</b> </br>
 
 <h2 id="cronograma">Cronograma</h1>
+
+<table>
+  <tr>
+    <th rowspan="2">Actividades</th>
+    <td>Metafisica</td>
+    <td colspan="16">Escala Temporal (semanas)</td>
+  </tr>
+
+  <tr>
+    <td>Unidad de medida</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>15</td>
+    <td>16</td>
+  </tr>
+
+</table>
