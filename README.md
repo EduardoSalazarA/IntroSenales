@@ -36,6 +36,20 @@ En este proyecto se usará materiales que disponibles en el laboratorio y compon
 En el proyecto se busca contruir un prototipo de baja o media fidelidad con el cual se obtendra una señal fisiológica. Después de un proceso analógico, esta pasará a un post procesamiento digital para obtener y visualizar la señal.
 
 <h2 id="Materiales">Materiales</h1>
+<li> <b>Arduino Nano 33 IoT:</b> Es una placa de desarrollo de tamaño reducido que integra capacidades de conectividad inalámbrica, procesamiento de datos y sensores, diseñada para proyectos de internet de las cosas (IoT) que requieren baja potencia y alta eficiencia energética.</li>
+<img src="Imagenes/arduino_nano_33_IoT.png" width="240" height="280"> 
+
+<li> <b>Arduino TinyML Kit:</b> Es un paquete de hardware y software que permite a los usuarios implementar aprendizaje automático en dispositivos pequeños y de bajo consumo de energía, utilizando la plataforma Arduino y Edge Impulse.</li>
+<img src="Imagenes/arduino_tinyml_kit.png" width="280" height="280"> 
+
+<li> <b>Ultracortex EEG Headset:</b> Es un dispositivo portátil que se coloca en la cabeza para medir la actividad eléctrica del cerebro y permitir la monitorización y análisis de las ondas cerebrales en tiempo real.</li>
+<img src="Imagenes/ultracortex_eeg_headset.png" width="280" height="280"> 
+
+<li> <b>Fluke ProSim 4:</b> Fluke ProSim 4 Vital Signs Patient Simulator es una simulador de paciente que imita los signos vitales del paciente, como la presión arterial, la frecuencia cardiaca y la respiración, para ayudar en el entrenamiento y prueba de equipos médicos.</li>
+<img src="Imagenes/fluke_prosim4.png" width="280" height="280"> 
+
+<li> <b>BiTalino:</b> Es un kit de herramientas de prototipado rápido para proyectos de salud y bienestar personal. Incluye sensores inalámbricos y una plataforma de software para adquirir, procesar y visualizar datos biomédicos.</li>
+<img src="Imagenes/bitalino.png" width="280" height="280"> 
 
 <h2 id="metodo">Metodología</h1>
 <img src="Imagenes/metodologia.jpg" width="800" height="900"> 
@@ -60,20 +74,20 @@ Algunos ejemplos de proyectos que involucren la adquisicion de señales bioeléc
 
 <h2 id="participantes">Participantes</h1>
 <p>En esta sección tendremos una pequeña descripcion de cada uno de nuestros integrantes:</p>
-<li> <b>Cristina Aldana (ana.aldana@upch.pe) - Colaborador:</b> </br>
+<li> <b>Ana Cristina Aldana Palomino (ana.aldana@upch.pe) - Colaborador:</b> </br>
 <i>"Me apasiona el área de Ingeniería de Tejidos y Biomateriales e Ingeniería Clínica, me motiva poder mejorar la calidad de vida de las personas, también poder desarrollar nuevas tecnologías, las cuales se adapten a las diferentes necesidades de la población peruana."</i> </li></br>
 
-<li> <b>André Cruces (andre.cruces@upch.pe) - Colaborador:</b> </br>
+<li> <b>André Jesus Cruces Chancahuaña (andre.cruces@upch.pe) - Colaborador:</b> </br>
 <i>"Me apasiona el área de Ingeniería de Tejidos y Biomateriales e Ingeniería Clínica, me motiva poder mejorar la calidad de vida de las personas, también poder desarrollar nuevas tecnologías, las cuales se adapten a las diferentes necesidades de la población peruana."</i> </li></br>
 
-<li> <b>Sergio Moreno (sergio.moreno@upch.pe) - Colaborador:</b> </br>
+<li> <b>Sergio Enrique Moreno Elescano (sergio.moreno@upch.pe) - Colaborador:</b> </br>
 <i>"Estudiante de pregrado de Ingeniería Biomédica con mucha curiosidad y ganas de trabajar. Mi interés actualmente es desarrollarme como investigador en el área de Biomecánica y Rehabilitación y seguir aprendiendo para realizar una contribución a la salud en el Perú."</i> </li></br>
 
-<li> <b>Angel Dianderas (angel.dianderas@upch.pe) - Colaborador:</b> </br>
+<li> <b>Angel Eduardo Dianderas Jorge (angel.dianderas@upch.pe) - Colaborador:</b> </br>
 <i>"Estudiante de pregrado de Ingeniería Biomédica con mucho interés en la aplicación de nuevas tecnologías para la rehabilitación y tratamientos de pacientes. Me gustaría seguir desarrollándome en el área de Biomecánica e Ingeniería Clínica."</i> </li></br>
 
-<li> <b> - Colaborador:</b> </br>
-<i>""</i> </li>
+<li> <b>Luis Eduardo Salazar Aguilar (luis.salazar.a@upch.pe) - Colaborador:</b> </br>
+<i>"Hola a todos, mi nombre es Eduardo Salazar, soy un estudiante de la carrera Ingeniería Biomédica, mi sueño es ayudar a progresar a nuestra sociedad. Siento que llevar este curso me llevara un paso mas a lograr esto. El lenguaje de programación que domino mas es Python."</i> </li>
 
 <h2 id="docentes">Docentes</h1>
 <li> <b>Mg. Lewis De la Cruz Rodriguez (umbert.de.la.cruz@upch.pe)</b> </br>
