@@ -36,8 +36,7 @@ En este proyecto se usará materiales que disponibles en el laboratorio y compon
 En el proyecto se busca contruir un prototipo de baja o media fidelidad con el cual se obtendra una señal fisiológica. Después de un proceso analógico, esta pasará a un post procesamiento digital para obtener y visualizar la señal.
 
 <h2 id="Materiales">Materiales</h1>
-<li> <b>Arduino Nano 33 IoT:</b> Es una placa de desarrollo de tamaño reducido que integra capacidades de conectividad inalámbrica, procesamiento de datos y sensores, diseñada para proyectos de internet de las cosas (IoT) que requieren baja potencia y alta eficiencia energética.</li>
-<img src="Imagenes/arduino_nano_33_IoT.png" width="240" height="260">
+<li> <b>Arduino Nano 33 IoT:</b> Es una placa de desarrollo de tamaño reducido que integra capacidades de conectividad inalámbrica, procesamiento de datos y sensores, diseñada para proyectos de internet de las cosas (IoT) que requieren baja potencia y alta eficiencia energética. <img src="Imagenes/arduino_nano_33_IoT.png" align='right' width="240" height="260"></li>
 
 <li> <b>Arduino TinyML Kit:</b> Es un paquete de hardware y software que permite a los usuarios implementar aprendizaje automático en dispositivos pequeños y de bajo consumo de energía, utilizando la plataforma Arduino y Edge Impulse.</li>
 <img src="Imagenes/arduino_tinyml_kit.png" width="280" height="270"> 
