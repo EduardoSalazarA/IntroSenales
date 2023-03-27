@@ -37,7 +37,7 @@ En el proyecto se busca contruir un prototipo de baja o media fidelidad con el c
 
 <h2 id="Materiales">Materiales</h1>
 <li> <b>Arduino Nano 33 IoT:</b> Es una placa de desarrollo de tamaño reducido que integra capacidades de conectividad inalámbrica, procesamiento de datos y sensores, diseñada para proyectos de internet de las cosas (IoT) que requieren baja potencia y alta eficiencia energética.</li>
-<center><img src="Imagenes/arduino_nano_33_IoT.png" width="240" height="260"></center>
+<p><center><img src="Imagenes/arduino_nano_33_IoT.png" width="240" height="260"></center></p>
 
 <li> <b>Arduino TinyML Kit:</b> Es un paquete de hardware y software que permite a los usuarios implementar aprendizaje automático en dispositivos pequeños y de bajo consumo de energía, utilizando la plataforma Arduino y Edge Impulse.</li>
 <img src="Imagenes/arduino_tinyml_kit.png" align="center" width="280" height="270"> 
