@@ -124,4 +124,10 @@ Algunos ejemplos de proyectos que involucren la adquisicion de señales bioeléc
     <td>16</td>
   </tr>
 
+  <tr>
+    <th>Creación de una página web y repositorio de github</th>
+    <td>Repositorio de GitHub</td>
+    <td>X</td>
+  </tr>
+
 </table>
