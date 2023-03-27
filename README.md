@@ -36,17 +36,17 @@ En este proyecto se usará materiales que disponibles en el laboratorio y compon
 En el proyecto se busca contruir un prototipo de baja o media fidelidad con el cual se obtendra una señal fisiológica. Después de un proceso analógico, esta pasará a un post procesamiento digital para obtener y visualizar la señal.
 
 <h2 id="Materiales">Materiales</h1>
-<center><li> <b>Arduino Nano 33 IoT:</b> Es una placa de desarrollo de tamaño reducido que integra capacidades de conectividad inalámbrica, procesamiento de datos y sensores, diseñada para proyectos de internet de las cosas (IoT) que requieren baja potencia y alta eficiencia energética.</br>
-<img src="Imagenes/arduino_nano_33_IoT.png" width="240" height="260"></li></center>
+<li> <b>Arduino Nano 33 IoT:</b> Es una placa de desarrollo de tamaño reducido que integra capacidades de conectividad inalámbrica, procesamiento de datos y sensores, diseñada para proyectos de internet de las cosas (IoT) que requieren baja potencia y alta eficiencia energética.</li>
+<img src="Imagenes/arduino_nano_33_IoT.png" width="240" height="260">
 
 <li> <b>Arduino TinyML Kit:</b> Es un paquete de hardware y software que permite a los usuarios implementar aprendizaje automático en dispositivos pequeños y de bajo consumo de energía, utilizando la plataforma Arduino y Edge Impulse.</li>
-<img src="Imagenes/arduino_tinyml_kit.png" width="280" height="270"> 
+<img src="Imagenes/arduino_tinyml_kit.png" width="280" height="265"> 
 
 <li> <b>Ultracortex EEG Headset:</b> Es un dispositivo portátil que se coloca en la cabeza para medir la actividad eléctrica del cerebro y permitir la monitorización y análisis de las ondas cerebrales en tiempo real.</li>
 <img src="Imagenes/ultracortex_eeg_headset.png" width="270" height="280"> 
 
 <li> <b>Fluke ProSim 4:</b> Fluke ProSim 4 Vital Signs Patient Simulator es una simulador de paciente que imita los signos vitales del paciente, como la presión arterial, la frecuencia cardiaca y la respiración, para ayudar en el entrenamiento y prueba de equipos médicos.</li>
-<img src="Imagenes/fluke_prosim4.png" width="270" height="285"> 
+<img src="Imagenes/fluke_prosim4.png" width="260" height="285"> 
 
 <li> <b>BiTalino:</b> Es un kit de herramientas de prototipado rápido para proyectos de salud y bienestar personal. Incluye sensores inalámbricos y una plataforma de software para adquirir, procesar y visualizar datos biomédicos.</li>
 <img src="Imagenes/bitalino.png" width="280" height="280"> 
