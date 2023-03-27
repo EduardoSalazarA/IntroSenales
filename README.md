@@ -1,8 +1,8 @@
-# Introducción a Señales Biomédicas
+<h1>Introducción a Señales Biomédicas</h1>
 <p>Este es el repositorio del grupo 12 para el curso Introducción a Señales Biomédicas del ciclo 2023-1.</p>
 <img src="Imagenes/integrantes.jpg" width="800" height="450">
 
-# Tabla de Contenidos
+<h1>Tabla de Contenidos</h1>
 <li> <a href="#biosenal"> ¿Qué es una bioseñal? </a> </li>    
 <li> <a href="#materiales"> Materiales </a> </li> 
 <li> <a href="#metodo"> Metodología </a> </li>  
