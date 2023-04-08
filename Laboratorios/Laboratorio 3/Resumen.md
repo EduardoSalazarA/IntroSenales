@@ -18,3 +18,24 @@
 <img src="Imagenes/emg_signal.png">
 <li> <a href="#archiv"> Archivos </a> </li> 
 <h2 id="Objetivos">Objetivos</h1>
+<ul>
+  <li>Carnívoro
+  	<ul>
+  		<li>León</li>
+  		<li>Buitre</li>
+  		<li>Hiena</li>
+  	</ul>
+  </li>
+  <li>Herbívoro
+  	<ul>
+  		<li>Cabra</li>
+  		<li>Vaca</li>
+  	</ul>
+  </li>
+  <li>Omnívoro
+  	<ul>
+  		<li>Oso</li>
+  		<li>Urraca</li>
+  	</ul>
+  </li>
+</ul>
