@@ -17,7 +17,6 @@
   <li> <a href="#res"> Resultados </a> 
   	<ul>
   		<li> <a href="#señal"> Señal en OpenSignals </a> </li> 
-      <img src="Imagenes/emg_signal.png">
       <li> <a href="#archiv"> Archivos </a> </li> 
   	</ul>
   </li>
@@ -47,6 +46,20 @@
   </tr>
 </table>
 <h2 id="proce">Procedimiento</h1>
-  <h3 id="conex">Conexión</h1>
-  
+<ul>
+<h2 id="conex">Conexión</h1>
+  <ul>
+  <li> </a> Electrodos-cuerpo</a> </li> 
+  <li> </a> BITalino-cables</a> </li> 
+  </ul>
+<h2 id="obt">Obtención de la señal </h1>
+<h2 id="señan">Señal en Python </h1>
+</ul>
+<h2 id="disc">Discusión</h1>
+<h2 id="res">Resultados</h1>
+<ul>
+<h2 id="señal">Señal en OpenSignals</h1>
+<p align="center"><img src="Imagenes/emg_signal.png"width="500"></p>
+<h2 id="archiv">Archivos</h1>
+</ul> 
 
