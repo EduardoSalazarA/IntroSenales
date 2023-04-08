@@ -27,13 +27,13 @@
   <li> </a> Adquirir señales biomédicas de EMG y ECG </a> </li> 
   <li> </a> Hacer una correcta configuración de BiTalino </a> </li> 
   <li> </a> Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution</a> </li> 
-  	<ul>
+</ul>
 <h2 id="materiales">Materiales y Equipos</h1>
 <tr>
     <th>Actividades</th>
     <td>Metafisica</td>
     <td>Escala Temporal (semanas)</td>
-  </tr>
+</tr>
 <h2 id="proce">Procedimiento</h1>
   <h3 id="conex">Conexión</h1>
   
