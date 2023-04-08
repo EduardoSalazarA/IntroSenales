@@ -6,9 +6,11 @@
 <li> <a href="#Objetivos"> Objetivos </a> </li>    
 <li> <a href="#materiales"> Materiales y Equipos </a> </li> 
 <li> <a href="#proce"> Procedimiento  </a> </li> 
-<li> <a href="#conex"> Conexión  </a> </li> 
-<li> <a href="#obt"> Obtención de la señal  </a> </li> 
-<li> <a href="#señan"> Señal en Python </a> </li> 
+<ul>
+  <li> <a href="#conex"> Conexión  </a> </li> 
+  <li> <a href="#obt"> Obtención de la señal  </a> </li> 
+  <li> <a href="#señan"> Señal en Python </a> </li> 
+</ul>
 <li> <a href="#disc"> Discusión </a> </li>
 <li> <a href="#res"> Resultados </a> </li>  
 <li> <a href="#señal"> Señal en OpenSignals </a> </li> 
