@@ -12,7 +12,6 @@
 <li> <a href="#disc"> Discusión </a> </li>
 <li> <a href="#res"> Resultados </a> </li>  
 <li> <a href="#señal"> Señal en OpenSignals </a> </li> 
-<img src="Imagenes/emg_signal.png" width="280" height="280">
-
+<img src="Imagenes/emg_signal.png">
 <li> <a href="#archiv"> Archivos </a> </li> 
 <h2 id="Objetivos">Objetivos</h1>
