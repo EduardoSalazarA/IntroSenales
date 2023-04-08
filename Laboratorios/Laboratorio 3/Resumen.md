@@ -54,6 +54,8 @@
   </ul>
 <h2 id="obt">Obtención de la señal </h1>
 <h2 id="señan">Señal en Python </h1>
+<p> En el archivo de texto obtenido del OpenSignal se menciona que la frecuecia de muestreo es de 1000Hz, entonces tiene un tiempo de muestreo de 1 ms. Se pasaron los datos de la señal en un excel y se agrego una variable de tiempo con 1 ms entre cada muestra, después se uso python para poder realizar la gráfica de la señal.
+  <p align="center"><img src="Imagenes/grafica_python.png" width="500"></p>
 </ul>
 <h2 id="disc">Discusión</h1>
 <ul>
