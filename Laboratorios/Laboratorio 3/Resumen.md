@@ -23,4 +23,10 @@
   </li>
 </ul>
 <h2 id="Objetivos">Objetivos</h1>
+<ul>
+  <li> </a> Adquirir señales biomédicas de EMG y ECG </a> </li> 
+  <li> </a> Hacer una correcta configuración de BiTalino </a> </li> 
+  <li> </a> Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution</a> </li> 
+  	<ul>
+
 
