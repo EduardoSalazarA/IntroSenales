@@ -1,6 +1,6 @@
 <h1>Laboratorio 3: Uso de BiTalino para EMG y ECG</h1>
-<p>Este es labotorio utilizaremos Bi Talino para electromiografía(EMG) y electrocardiograma(ECG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales EMG y ECG del software OpenSignals (r)evolution.</p>
-<p align="center">img src="Imagenes/imagprincipal.jpg" width="500"></p>
+<p>En este labotorio utilizaremos Bi Talino para electromiografía(EMG) y electrocardiograma(ECG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales EMG y ECG del software OpenSignals (r)evolution.</p>
+<p align="center"><img src="Imagenes/imagprincipal.jpg" width="500"></p>
 
 <h1>Tabla de Contenidos</h1>
 <ul>
@@ -29,11 +29,23 @@
   <li> </a> Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution</a> </li> 
 </ul>
 <h2 id="materiales">Materiales y Equipos</h1>
-<tr>
-    <th>Actividades</th>
-    <td>Metafisica</td>
-    <td>Escala Temporal (semanas)</td>
-</tr>
+<table>
+  <tr>
+    <th>Modelo</th>
+    <th>Descripción</th>
+    <th>Cantidad </th>
+  </tr>
+  <tr>
+    <td>(R)EVOLUTION</td>
+    <td>Kit BITalino</td>
+    <td>1</td>
+  </tr>
+    <tr>
+    <td>-</td>
+    <td>Laptop o PC</td>
+    <td>1</td>
+  </tr>
+</table>
 <h2 id="proce">Procedimiento</h1>
   <h3 id="conex">Conexión</h1>
   
