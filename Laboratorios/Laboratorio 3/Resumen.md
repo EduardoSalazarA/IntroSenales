@@ -72,5 +72,7 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 <h2 id="señal">Señal en OpenSignals</h1>
 <p align="center"><img src="Imagenes/emg_signal.png"width="500"></p>
 <h2 id="archiv">Archivos</h1>
+
+[Archivos_BiTalino.zip](https://github.com/EduardoSalazarA/IntroSenales/files/11184266/Archivos_BiTalino.zip)
 </ul> 
 
