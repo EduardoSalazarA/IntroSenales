@@ -58,8 +58,8 @@
 <h2 id="disc">Discusión</h1>
 <h2 id="res">Resultados</h1>
 <ul>
-  <li> </a> Podemos observar en la señal los periodos de tiempo cuando se reclutan la mayor cantidad de grupos musculares durante la contraccion reflejado en una mayor actividad electrica y mayor amplitud de la señal
-  <li> </a> Tambien se identifico los periodos de tiempo en los que el musculo esta activo o en reposo
+  <li> </a> Podemos observar en la señal los periodos de tiempo cuando se reclutan la mayor cantidad de grupos musculares durante la contraccion reflejado en una mayor actividad electrica y mayor amplitud de la señal.
+  <li> </a> Tambien se identifico los periodos de tiempo en los que el musculo esta activo o en reposo.
 </ul>
 <h2 id="señal">Señal en OpenSignals</h1>
 <p align="center"><img src="Imagenes/emg_signal.png"width="500"></p>
