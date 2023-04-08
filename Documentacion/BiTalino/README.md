@@ -1,6 +1,6 @@
 <h1>Laboratorio 3: Uso de BiTalino para EMG y ECG</h1>
 <p>En este labotorio utilizaremos Bi Talino para electromiografía(EMG) y electrocardiograma(ECG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales EMG y ECG del software OpenSignals (r)evolution.</p>
-<p align="center"><img src="IntroSenales_Grupo12/Imagenes/imagprincipal.jpg" width="500"></p>
+<p align="center"><img src="../../Imagenes/imagprincipal.jpg" width="500"></p>
 
 <h1>Tabla de Contenidos</h1>
 <ul>
@@ -58,7 +58,7 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 
 <h2 id="señan">Señal en Python </h1>
 <p> En el archivo de texto obtenido del OpenSignal se menciona que la frecuecia de muestreo es de 1000Hz, entonces tiene un tiempo de muestreo de 1 ms. Se pasaron los datos de la señal en un excel y se agrego una variable de tiempo con 1 ms entre cada muestra, después se uso python para poder realizar la gráfica de la señal.
-  <p align="center"><img src="Imagenes/grafica_python.png" width="500"></p>
+  <p align="center"><img src="../../Imagenes/grafica_python.png" width="500"></p>
 </ul>
 <h2 id="disc">Discusión</h1>
 <ul>
@@ -70,7 +70,7 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
   <li> </a> Tambien se identifico los periodos de tiempo en los que el musculo esta activo o en reposo.
 </ul>
 <h2 id="señal">Señal en OpenSignals</h1>
-<p align="center"><img src="Imagenes/emg_signal.png"width="500"></p>
+<p align="center"><img src="../../Imagenes/emg_signal.png"width="500"></p>
 <h2 id="archiv">Archivos</h1>
 
 [Archivos_BiTalino.zip](https://github.com/EduardoSalazarA/IntroSenales/files/11184266/Archivos_BiTalino.zip)
