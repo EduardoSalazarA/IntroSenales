@@ -51,6 +51,8 @@
   <ul>
   <li> </a> Electrodos-cuerpo</a> </li> 
   <li> </a> BITalino-cables</a> </li> 
+  <p>Para conectar el BITalino-cables usamos el manual de usuario para poder distingir los puertos a utilizar</p>
+  
   </ul>
 <h2 id="obt">Obtención de la señal </h1>
 
