@@ -51,6 +51,7 @@
   <ul>
   <li> </a> Electrodos-cuerpo</a> </li> 
   <p>Los electrodos son colocados en la posición que corresponde al biceps, uno de los electrodos se coloca como referencia y el otro capta la señal.
+  Dichos electrodos cuentan con un material conductor metálico recubierto de una capa aislante y son capaces de detectar esa diferencia de potencial producida por la actividad eléctrica muscular.
   <p align="center"><img src="../../Imagenes/imagprincipal.jpg" width="500"></p>
   <li> </a> BITalino-cables</a> </li> 
   <p>Para conectar el BITalino-cables usamos el manual de usuario para poder distinguir los puertos a utilizar. </p>
