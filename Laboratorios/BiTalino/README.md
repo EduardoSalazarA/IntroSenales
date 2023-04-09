@@ -54,7 +54,7 @@
   <li> </a> BITalino-cables</a> </li> 
   <p>Para conectar el BITalino-cables usamos el manual de usuario para poder distinguir los puertos a utilizar. </p>
   <p align="center"><img src="../../Imagenes/conexion.png"width="500"></p>
-  <pManual de usuario: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/bitalino-revolution-user-manual.pdf"></p>
+  <p> Manual de usuario: https://support.pluxbiosignals.com/wp-content/uploads/2021/11/bitalino-revolution-user-manual.pdf"</p>
   <p>Vamos a utilizar el puerto A1, señalado en el recuadro azul pues este nos permitirá obtener la señal de la actividad del músculo, electromiografía (EMG).</p>
   <p>Para poder alimentar la placa conectaremos la fuente de poder que será una batería de litio (recuadro anaranjado).</p>
 
