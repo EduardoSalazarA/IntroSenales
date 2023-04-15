@@ -1,5 +1,5 @@
 <h1>Laboratorio 4: Uso de BiTalino para ECG</h1>
-<p>En este labotorio utilizaremos Bi Talino para electromiografía(ECG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales ECG del software OpenSignals (r)evolution.</p>
+<p>En este labotorio utilizaremos Bi Talino para electrocardiografia (ECG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales ECG del software OpenSignals (r)evolution.</p>
 <p align="center"><img src="../../Imagenes/principal.gif" width="500"></p>
 
 <h1>Tabla de Contenidos</h1>
