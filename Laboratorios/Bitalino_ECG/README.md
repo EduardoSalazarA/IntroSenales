@@ -1,5 +1,5 @@
 <h1>Laboratorio 4: Uso de BiTalino para ECG</h1>
-<p>En este labotorio utilizaremos Bi Talino para electrocardiografia (ECG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales ECG del software OpenSignals (r)evolution.</p>
+<p>En este labotorio utilizaremos Bi Talino para electromiografía(EMG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales EMG del software OpenSignals (r)evolution.</p>
 <p align="center"><img src="../../Imagenes/principal.gif" width="500"></p>
 
 <h1>Tabla de Contenidos</h1>
@@ -55,9 +55,9 @@
 </ul>
 <h2 id="Objetivos">Objetivos</h1>
 <ul>
-  <li> </a> Adquirir señales biomédicas de ECG </a> </li> 
+  <li> </a> Adquirir señales biomédicas de EMG y ECG </a> </li> 
   <li> </a> Hacer una correcta configuración de BiTalino </a> </li> 
-  <li> </a> Extraer la información de las señales ECG del software OpenSignals (r)evolution</a> </li> 
+  <li> </a> Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution</a> </li> 
 <ul>
 <h2 id="materiales">Materiales y Equipos</h1>
 <table>
@@ -106,9 +106,9 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 <h2 id="señalo">Señal en OpenSignals</h1>
 <p align="center"><img src="../../Imagenes/ECG2seg_P1_normal.jpg" width="800"></p>
 
-<p align="center"><img src="../../Imagenes/ECG2seg_P1_aguantandorespiracion.jpg" width="800"></p>
+<p align="center"><img src="../../Imagenes/ECG2seg_P1_aguantandorespiracion.JPG" width="800"></p>
 
-<p align="center"><img src="../../Imagenes/ECG2seg_P1_burpies.jpg" width="800"></p>
+<p align="center"><img src="../../Imagenes/ECG2seg_P1_burpies.JPG" width="800"></p>
 
 <h2 id="señalp">Señal en Python </h1>
 <p> El archivo de texto obtenido del OpenSignal contiene 6 columnas de los cuales el último corresponde a la señal en bits que recibe el microcontrolador, esos valores se reescalan, en Python, a volts multiplicandolos por 3.3 V(voltaje de operación del ADC del microcontrolador) y se divide entre 1023, que corresponde al máximo valor decimal permitido por el ADC de 10 bits que presenta el BiTalino. Después de procesada la señal se usa la librería matplotlib de python para graficarla. El código usado es el siguiente:https://github.com/EduardoSalazarA/IntroSenales/blob/main/Software/Laboratorio_3_se%C3%B1al_EMG.py
@@ -121,13 +121,12 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 </ul>
 <h2 id="res">Resultados</h1>
 <ul>
-  <li> </a> Podemos observar en la señal los periodos de tiempo cuando se reclutan la mayor cantidad de grupos musculares durante la contraccion reflejado en una mayor actividad electrica y mayor amplitud de la señal.
-  <li> </a> Tambien se identifico los periodos de tiempo en los que el musculo esta activo o en reposo.
+  <li> </a> Se puede observar que la frecuencia de la señal después de realizar ejercicios aumenta con respecto a la posición basal, asimismo las fases de la onda son más cortas y la amplitud máxima en el complejo QRS es menor.
+  <li> </a> También se puede observar que la frecuencia de la señal obtenida después de contener la respiración es similar con respecto a la posición basal, de mismo modo las fases son similares sin embargo la amplitud máxima en el complejo QRS es mayor ya que sobrepasa los 1 mV.
 </ul>
 
 <h2 id="archiv">Archivos</h1>
 
-[Archivos_BiTalino.zip](https://github.com/EduardoSalazarA/IntroSenales/files/11184266/Archivos_BiTalino.zip)
 </ul> 
 
 
