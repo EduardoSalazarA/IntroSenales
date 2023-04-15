@@ -21,9 +21,11 @@
       <li> <a href="#archiv"> Archivos </a> </li> 
   	</ul>
   </li>
+ <li> <a href="#refs"> Referencias  </a> 
 </ul>
+
 <h2 id="Base">Base Teórica</h1>
-<li> <a href="#refs"> Referencias  </a> 
+
   <h2>Electrocardiograma</h1>
   <p>Es un gráfico en el que se estudian las variaciones de voltaje en relación con el tiempo. Consiste en registrar en papel milimetrado (para facilitar la medición), la actividad de la corriente eléctrica que se está desarrollando en el corazón durante un tiempo determinado [1]</p>
  <p>La actividad eléctrica del corazón recogida en el ECG se observa en forma de un trazado que presenta diferentes deflexiones (ondas del ECG) que se corresponden con el recorrido de los impulsos eléctricos a través de las diferentes estructuras del corazón.[1]</p>
