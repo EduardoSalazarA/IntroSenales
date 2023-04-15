@@ -105,7 +105,9 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 
 <h2 id="señalo">Señal en OpenSignals</h1>
 <p align="center"><img src="../../Imagenes/ECG2seg_P1_normal.jpg" width="800"></p>
+
 <p align="center"><img src="../../Imagenes/ECG2seg_P1_aguantandorespiracion.jpg" width="800"></p>
+
 <p align="center"><img src="../../Imagenes/ECG2seg_P1_burpies.jpg" width="800"></p>
 
 <h2 id="señalp">Señal en Python </h1>
