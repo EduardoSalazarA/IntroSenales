@@ -132,4 +132,6 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 </ul> 
 
 <h2 id="#refs">Referencias </h1> 
-
+1.	https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf
+2.	Servicio de Cardiología del Hospital Virgen de la Victoria (Málaga). [En línea]. Electrocardiograma. [Citado el 6 de octubre de 2020]. Disponible desde: http://www.medynet.com/usuarios/jraguilar/Manual%20de%20urgencias%20y%20 Emergencias/ecg.pdf
+</ul> 
