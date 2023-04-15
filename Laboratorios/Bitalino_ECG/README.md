@@ -52,7 +52,8 @@
   <li> </a> Electrodos-cuerpo</a> </li> 
   <p>Los electrodos se colocaron de dos maneras como se puede ver en las imágenes, en el primer sujeto de prueba se conecto el electrodo de referencia en la parte inferior izquierda del abdomen y los otros dos electrodos en las muñecas; en el segundo sujeto de prueba se conecto el electrodo de referencia en la parte del tobillo derecho y los otros dos electrodos en las muñecas.
 Dichos electrodos cuentan con un material conductor metálico recubierto de una capa aislante y son capaces de detectar esa diferencia de potencial producida por la actividad eléctrica muscular y convertirla en una señal eléctrica.</p>
-  <p><img src="../../Imagenes/ConexionE.jpg" width="500" img src="../../Imagenes/ConexionS.jpg" width="500"></p>
+  <p><img src="../../Imagenes/ConexionE.jpg" width="500"></p>
+  <p><img src="../../Imagenes/ConexionS.jpg" width="500"></p>
   <li> </a> BITalino-cables</a> </li> 
   <p>Para conectar el BITalino-cables usamos el manual de usuario para poder distinguir los puertos a utilizar. </p>
   <p align="center"><img src="../../Imagenes/conexion.png"width="500"></p>
