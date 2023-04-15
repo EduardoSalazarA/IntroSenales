@@ -19,7 +19,7 @@
   <li> <a href="#res"> Resultados </a> 
   	<ul>
       <li> <a href="#archiv"> Archivos </a> </li> 
- <li> <a href="#refs"> Referencias  </a> 
+  <li> <a href="#refs"> Referencias  </a> 
 </ul>
 <h2 id="Base">Base Teórica</h1>
 
@@ -131,7 +131,7 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 [Archivos_BiTalino.zip](https://github.com/EduardoSalazarA/IntroSenales/files/11184266/Archivos_BiTalino.zip)
 </ul> 
 
-<h2 id="#refs">Referencias </h1> 
+<h2 id="refs">Referencias </h1> 
 <li> </a>1.	https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf
 <li> </a>2.	Servicio de Cardiología del Hospital Virgen de la Victoria (Málaga). [En línea]. Electrocardiograma. [Citado el 6 de octubre de 2020]. Disponible desde: http://www.medynet.com/usuarios/jraguilar/Manual%20de%20urgencias%20y%20 Emergencias/ecg.pdf
 </ul> 
