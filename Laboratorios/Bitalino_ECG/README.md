@@ -57,7 +57,7 @@
 <ul>
   <li> </a> Adquirir señales biomédicas de ECG </a> </li> 
   <li> </a> Hacer una correcta configuración de BiTalino </a> </li> 
-  <li> </a> Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution</a> </li> 
+  <li> </a> Extraer la información de las señales ECG del software OpenSignals (r)evolution</a> </li> 
 <ul>
 <h2 id="materiales">Materiales y Equipos</h1>
 <table>
