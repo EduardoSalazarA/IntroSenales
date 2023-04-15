@@ -19,11 +19,8 @@
   <li> <a href="#res"> Resultados </a> 
   	<ul>
       <li> <a href="#archiv"> Archivos </a> </li> 
-  	</ul>
-  </li>
  <li> <a href="#refs"> Referencias  </a> 
 </ul>
-
 <h2 id="Base">Base Teórica</h1>
 
   <h2>Electrocardiograma</h1>
