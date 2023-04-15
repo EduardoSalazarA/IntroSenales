@@ -79,8 +79,8 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 <p align="center"><img src="../../Imagenes/emg_signal.png"width="500"></p>
 
 <h2 id="señalp">Señal en Python </h1>
-<p> El archivo de texto obtenido del OpenSignal contiene 6 columnas de los cuales el último corresponde a la señal en bits que recibe el microcontrolador, esos valores se obtuvieron directamente en mV configurando el OpenSignals para que reciba la señal ECG. Después se procedio a plotear en python las señales usando las librerias numpy, matplotlib, pandas, seaborn y re. [https://github.com/EduardoSalazarA/IntroSenales/blob/main/Software/Laboratorio_3_se%C3%B1al_EMG.py](https://github.com/EduardoSalazarA/IntroSenales/blob/main/Software/Laboratorio%204_ECG)
-  <p align="center"><img src="../../Imagenes/ECG_normalS.png" width="500"></p>
+<p> El archivo de texto obtenido del OpenSignal contiene 6 columnas de los cuales el último corresponde a la señal en bits que recibe el microcontrolador, esos valores se obtuvieron directamente en mV configurando el OpenSignals para que reciba la señal ECG. Después se procedio a plotear en python las señales usando las librerias numpy, matplotlib, pandas, seaborn y re. El codigo usado se encuentra en el siguiente link: (https://github.com/EduardoSalazarA/IntroSenales/blob/main/Software/Laboratorio%204_ECG)
+  <p align="center"><img src="../../Imagenes/ECG_normalS_grid.png" width="500"></p>
   <p align="center"><img src="../../Imagenes/ECG_burpiesS_grid.png" width="500"></p>
   <p align="center"><img src="../../Imagenes/ECG_aguantandoS_grid.png" width="500"></p>
   
