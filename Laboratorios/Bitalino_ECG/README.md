@@ -50,10 +50,9 @@
 <h2 id="conex">Conexión</h1>
   <ul>
   <li> </a> Electrodos-cuerpo</a> </li> 
-  <p>Los electrodos son colocados en la posición que corresponde al biceps, uno de los electrodos se coloca como referencia y el otro capta la señal.
-  Dichos electrodos cuentan con un material conductor metálico recubierto de una capa aislante y son capaces de detectar esa diferencia de potencial producida por la actividad eléctrica muscular y convertirla en una señal eléctrica.
-  <p>Dicha señal eléctrica es amplificada en el módulo BITalino, que cuenta con un amplificador de instrumentación. Además el módulo cuenta también con un filtro pasa-banda que elimina el ruido, como interferencias eléctricas o señales de alta frecuencia generadas por el movimiento del paciente.
-  <p align="center"><img src="../../Imagenes/imagprincipal.jpg" width="500"></p>
+  <p>Los electrodos se colocaron de dos maneras como se puede ver en las imágenes, en el primer sujeto de prueba se conecto el electrodo de referencia en la parte inferior izquierda del abdomen y los otros dos electrodos en las muñecas; en el segundo sujeto de prueba se conecto el electrodo de referencia en la parte del tobillo derecho y los otros dos electrodos en las muñecas.
+Dichos electrodos cuentan con un material conductor metálico recubierto de una capa aislante y son capaces de detectar esa diferencia de potencial producida por la actividad eléctrica muscular y convertirla en una señal eléctrica.</p>
+  <p><img src="../../Imagenes/conexionE.jpg" width="500"></p>
   <li> </a> BITalino-cables</a> </li> 
   <p>Para conectar el BITalino-cables usamos el manual de usuario para poder distinguir los puertos a utilizar. </p>
   <p align="center"><img src="../../Imagenes/conexion.png"width="500"></p>
