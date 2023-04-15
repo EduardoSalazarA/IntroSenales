@@ -128,6 +128,8 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 
 <h2 id="archiv">Archivos</h1>
 
+[Archivos_BiTalino.zip](https://github.com/EduardoSalazarA/IntroSenales/files/11184266/Archivos_BiTalino.zip)
 </ul> 
+
 
 
