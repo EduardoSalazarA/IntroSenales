@@ -118,7 +118,7 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 </ul>
 <h2 id="disc">Discusión</h1>
 <ul>
-  <p> Analizando la señal pudimos ver que la mayor contraccion muscular y actividad electrica se dio entre 1.4s y 3.3s, 4.9s y 7.1s, 9.4s y 12.7s ,y 13.8s y 15.2s que coincide naturalmente con los momentos en que nuestro compañero con los electrodos ejerció fuerza en su brazo.
+  <p> Dados los resultados, podemos concluir que hay una evidente relacion entre la frecuencia cardiaca y la actividad fisica
 </ul>
 <h2 id="res">Resultados</h1>
 <ul>
