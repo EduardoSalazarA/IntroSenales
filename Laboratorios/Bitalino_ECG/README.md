@@ -1,5 +1,5 @@
 <h1>Laboratorio 4: Uso de BiTalino para ECG</h1>
-<p>En este labotorio utilizaremos Bi Talino para electrocardiografia(ECG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales ECG del software OpenSignals (r)evolution.</p>
+<p>En este labotorio utilizaremos Bi Talino para electromiografía(EMG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales EMG del software OpenSignals (r)evolution.</p>
 <p align="center"><img src="../../Imagenes/principal.gif" width="500"></p>
 
 <h1>Tabla de Contenidos</h1>
@@ -23,14 +23,42 @@
   </li>
 </ul>
 <h2 id="Base">Base Teórica</h1>
-<p>Los electrodos se colocaron de dos maneras como se puede ver en las imágenes, en el primer sujeto de prueba se conecto el electrodo de referencia en la parte inferior izquierda del abdomen y los otros dos electrodos en las muñecas; en el segundo sujeto de prueba se conecto el electrodo de referencia en la parte del tobillo derecho y los otros dos electrodos en las muñecas.
-Dichos electrodos cuentan con un material conductor metálico recubierto de una capa aislante y son capaces de detectar esa diferencia de potencial producida por la actividad eléctrica muscular y convertirla en una señal eléctrica.</p>
+<ul>
+  <h2>Electrocardiograma</h1>
+  <p>Es un gráfico en el que se estudian las variaciones de voltaje en relación con el tiempo. Consiste en registrar en papel milimetrado (para facilitar la medición), la actividad de la corriente eléctrica que se está desarrollando en el corazón durante un tiempo determinado [1]</p>
+ <p>La actividad eléctrica del corazón recogida en el ECG se observa en forma de un trazado que presenta diferentes deflexiones (ondas del ECG) que se corresponden con el recorrido de los impulsos eléctricos a través de las diferentes estructuras del corazón.[1]</p>
+</ul>
+<ul>
+<h2>Registro del ECG</h1>
+  <p>Tenemos dos tipos de derivaciones[2]</p>
+  <ul>
+    <li> </a> Plano frontal </a> </li>
+    <p align="center"><img src="../../Imagenes/plano.jpg" width="500"></p>
+    <li> </a> Precordinales </a> </li>
+    <p align="center"><img src="../../Imagenes/precordial.jpg" width="500"></p>
+   </ul>
+<ul>
+<h2>Ondas y Complejos</h1>
+  <ul>
+    <li> </a> La despolarización auricular es la onda P estas son habitualmente ascendentes y ligeramente redondeadas</a> </li>
+    <li> </a> La despolarización ventricular es la onda QRS </a> </li>
+    <li> </a>La repolarización ventricular está representada por la onda T</a> </li>
+    <li> </a> La onda U es relacionada con la repolarización tardía de los ventrículos</a> </li>
+    <li> </a>Una onda de despolarización inicia desde el marcapaso, propagándose [2] </a> </li>
+ </ul>   
+</ul>
+<ul>
+<h2>Intervalos y Segmentos</h1>
+  <p align="center"><img src="../../Imagenes/interyseg.jpg" width="500"></p>
+</ul>
+</ul>
+</ul>
 <h2 id="Objetivos">Objetivos</h1>
 <ul>
-  <li> </a> Adquirir señales biomédicas de ECG </a> </li> 
+  <li> </a> Adquirir señales biomédicas de EMG y ECG </a> </li> 
   <li> </a> Hacer una correcta configuración de BiTalino </a> </li> 
-  <li> </a> Extraer la información de las señales ECG del software OpenSignals (r)evolution</a> </li> 
-</ul>
+  <li> </a> Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution</a> </li> 
+<ul>
 <h2 id="materiales">Materiales y Equipos</h1>
 <table>
   <tr>
@@ -79,10 +107,8 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 <p align="center"><img src="../../Imagenes/emg_signal.png"width="500"></p>
 
 <h2 id="señalp">Señal en Python </h1>
-<p> El archivo de texto obtenido del OpenSignal contiene 6 columnas de los cuales el último corresponde a la señal en bits que recibe el microcontrolador, esos valores se obtuvieron directamente en mV configurando el OpenSignals para que reciba la señal ECG. Después se procedio a plotear en python las señales usando las librerias numpy, matplotlib, pandas, seaborn y re. El codigo usado se encuentra en el siguiente link: (https://github.com/EduardoSalazarA/IntroSenales/blob/main/Software/Laboratorio%204_ECG)
-  <p align="center"><img src="../../Imagenes/ECG_normalS_grid.png" width="500"></p>
-  <p align="center"><img src="../../Imagenes/ECG_burpiesS_grid.png" width="500"></p>
-  <p align="center"><img src="../../Imagenes/ECG_aguantandoS_grid.png" width="500"></p>
+<p> El archivo de texto obtenido del OpenSignal contiene 6 columnas de los cuales el último corresponde a la señal en bits que recibe el microcontrolador, esos valores se reescalan, en Python, a volts multiplicandolos por 3.3 V(voltaje de operación del ADC del microcontrolador) y se divide entre 1023, que corresponde al máximo valor decimal permitido por el ADC de 10 bits que presenta el BiTalino. Después de procesada la señal se usa la librería matplotlib de python para graficarla. El código usado es el siguiente:https://github.com/EduardoSalazarA/IntroSenales/blob/main/Software/Laboratorio_3_se%C3%B1al_EMG.py
+  <p align="center"><img src="../../Imagenes/EMG_python.png" width="500"></p>
   
 </ul>
 <h2 id="disc">Discusión</h1>
