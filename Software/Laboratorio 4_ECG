@@ -1,0 +1,36 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import re
+
+# Cargar el archivo de señal txt
+with open('ECG-ECG-Normal.txt') as f:
+    # Saltar las tres primeras líneas
+    for i in range(3):
+        f.readline()
+    # Leer la frecuencia
+    fs=1000
+    #fs = float(f.readline().split()[-1])
+    # Leer los valores de la señal
+    signal = np.loadtxt(f)
+
+# Crear un vector de tiempo
+time = np.arange(0, len(signal)) / fs
+
+# Seleccionar intervalo de tiempo para plotear
+start_time = 0   # tiempo inicial en segundos
+end_time = 31.35     # tiempo final en segundos
+start_index = int(start_time * fs)
+end_index = int(end_time * fs)
+
+# Plotear la señal
+plt.plot(time[5000:7000], signal[5000:7000])
+#plt.plot(time[start_index:end_index], signal[start_index:end_index])
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('Señal ECG Normal')
+plt.grid()
+
+# Imprimir la frecuencia
+print('Frecuencia de muestreo: {} Hz'.format(fs))
