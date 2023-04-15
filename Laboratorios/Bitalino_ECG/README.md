@@ -1,9 +1,10 @@
 <h1>Laboratorio 4: Uso de BiTalino para ECG</h1>
 <p>En este labotorio utilizaremos Bi Talino para electromiografía(EMG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales EMG del software OpenSignals (r)evolution.</p>
-<p align="center"><img src="../../Imagenes/imagprincipal.jpg" width="500"></p>
+<p align="center"><img src="../../Imagenes/principal.gif" width="500"></p>
 
 <h1>Tabla de Contenidos</h1>
 <ul>
+  <li> <a href="#Base"> Base Teórica</a> </li>
   <li> <a href="#Objetivos"> Objetivos </a> </li>
   <li> <a href="#materiales"> Materiales y Equipos </a> </li> 
   <li> <a href="#proce"> Procedimiento  </a> 
@@ -21,6 +22,9 @@
   	</ul>
   </li>
 </ul>
+<h2 id="Base">Base Teórica</h1>
+<p>Los electrodos se colocaron de dos maneras como se puede ver en las imágenes, en el primer sujeto de prueba se conecto el electrodo de referencia en la parte inferior izquierda del abdomen y los otros dos electrodos en las muñecas; en el segundo sujeto de prueba se conecto el electrodo de referencia en la parte del tobillo derecho y los otros dos electrodos en las muñecas.
+Dichos electrodos cuentan con un material conductor metálico recubierto de una capa aislante y son capaces de detectar esa diferencia de potencial producida por la actividad eléctrica muscular y convertirla en una señal eléctrica.</p>
 <h2 id="Objetivos">Objetivos</h1>
 <ul>
   <li> </a> Adquirir señales biomédicas de EMG y ECG </a> </li> 
