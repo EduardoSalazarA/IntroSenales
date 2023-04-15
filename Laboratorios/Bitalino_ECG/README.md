@@ -9,14 +9,14 @@
   <li> <a href="#proce"> Procedimiento  </a> 
   	<ul>
   		 <li> <a href="#conex"> Conexión  </a> </li> 
-      <li> <a href="#obt"> Obtención de la señal  </a> </li> 
+      <li> <a href="#obt"> Obtención de la señal  </a> </li>
+      <li> <a href="#señalo"> Señal en OpenSignals </a> </li> 
       <li> <a href="#señalp"> Señal en Python </a> </li> 
   	</ul>
    <li> <a href="#disc"> Discusión </a> </li>
   </li>
   <li> <a href="#res"> Resultados </a> 
   	<ul>
-  		<li> <a href="#señalo"> Señal en OpenSignals </a> </li> 
       <li> <a href="#archiv"> Archivos </a> </li> 
   	</ul>
   </li>
