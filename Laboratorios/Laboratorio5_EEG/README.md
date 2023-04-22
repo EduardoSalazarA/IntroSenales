@@ -103,15 +103,25 @@ https://user-images.githubusercontent.com/123878192/233757413-20cbae95-5ba1-4717
 https://user-images.githubusercontent.com/123878192/233757963-10a14fa6-3e38-46b0-b584-1286276fafba.mp4
 
 
-  <p>3. Registrar al vendar.</p>
+  <p>4. Registrar al vendar.</p>
   
 </ul>
 
 <h2 id="señalbci">Señal en OpenBCI GUI</h1>
-<p align="center"><img src="../../Imagenes/"></p>
+<p>1. Registrar la señal en reposo durante 30 segundos.</p>
+
+<p>2. Registrar la señal de un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.</p>
+ 
+<p>3. Registrar la señal al hacer preguntas.</p>
 
 <h2 id="señalo">Señal en OpenSignals</h1>
-<p align="center"><img src="../../Imagenes/"></p>
+<p>1. Registrar la señal en reposo durante 30 segundos.</p>
+
+<p>2. Registrar la señal de un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.</p>
+ 
+<p>3. Registrar la señal al hacer preguntas.</p>
+
+<p>4. Registrar al vendar.</p>
 
 <h2 id="señalp">Señales en Python </h1>
 <ul>
