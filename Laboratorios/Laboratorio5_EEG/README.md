@@ -173,7 +173,7 @@ https://user-images.githubusercontent.com/123878192/233760625-cb12c3a7-787f-43ae
 
 </ul> 
 
- <li> </a>Bibliografia</li>
+ <h2> </a>Bibliografia</h1>
 <p>[1]Niedermeyer, E., & da Silva, F. L. (2004). Electroencephalography: basic principles, clinical applications, and related fields. Lippincott Williams & Wilkins.</p>
 <p>[2]Kappenman, E. S., & Luck, S. J. (2012). The Oxford handbook of event-related potential components. Oxford University Press.</p>
 <p>[3]Michel, C. M., & Koenig, T. (2018). EEG microstates as a tool for studying the temporal dynamics of whole-brain neuronal networks: a review. Neuroimage, 180, 577-593.</p>
