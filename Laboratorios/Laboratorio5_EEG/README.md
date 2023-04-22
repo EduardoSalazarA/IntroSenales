@@ -95,7 +95,7 @@ https://user-images.githubusercontent.com/123878192/233757413-20cbae95-5ba1-4717
 
   <p>3. Registrar la señal al hacer preguntas.</p>
   
-  <p>3. Registrar la señal al hacer preguntas.</p>
+  <p>3. Registrar al vendar.</p>
   
 </ul>
 
