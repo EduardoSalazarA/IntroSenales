@@ -82,6 +82,10 @@ https://user-images.githubusercontent.com/123878192/233757238-8c47f76f-908b-4600
 
   <p>3. Registrar la señal al hacer preguntas.</p>
 
+
+https://user-images.githubusercontent.com/123878192/233758135-ba048c05-16bb-4a53-8612-a78d4f5b2f02.mp4
+
+
   
   <li> </a>Adquisición por BiTalino</a> </li> 
   <p>1. Registrar la señal en reposo durante 30 segundos.</p>
