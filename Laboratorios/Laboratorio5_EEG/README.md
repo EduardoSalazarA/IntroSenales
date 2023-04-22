@@ -85,9 +85,13 @@ https://user-images.githubusercontent.com/123878192/233757238-8c47f76f-908b-4600
   <li> </a>Adquisición por BiTalino</a> </li> 
   <p>1. Registrar la señal en reposo durante 30 segundos.</p>
   
-
+   <p align="center"><img src="../../Imagenes/Bitalino_eeg_reposo.png"></p>  
   <p>2. Registrar la señal de un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.</p>
   
+
+https://user-images.githubusercontent.com/123878192/233757413-20cbae95-5ba1-4717-9b73-45fc04a3d74c.mp4
+
+
   <p>3. Registrar la señal al hacer preguntas.</p>
   
   <p>3. Registrar la señal al hacer preguntas.</p>
