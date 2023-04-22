@@ -7,6 +7,7 @@
   	<ul>
   		 <li> <a href="#conex"> Conexión  </a> </li> 
       <li> <a href="#obt"> Obtención de la señal  </a> </li>
+      <li> <a href="#señalbci"> Señal en OpenBCI GUI </a> </li> 
       <li> <a href="#señalo"> Señal en OpenSignals </a> </li> 
       <li> <a href="#señalp"> Señal en Python </a> </li> 
   	</ul>
@@ -97,6 +98,9 @@ https://user-images.githubusercontent.com/123878192/233757413-20cbae95-5ba1-4717
   <p>3. Registrar la señal al hacer preguntas.</p>
   
 </ul>
+
+<h2 id="señalbci">Señal en OpenBCI GUI</h1>
+<p align="center"><img src="../../Imagenes/"></p>
 
 <h2 id="señalo">Señal en OpenSignals</h1>
 <p align="center"><img src="../../Imagenes/"></p>
