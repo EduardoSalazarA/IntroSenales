@@ -105,6 +105,10 @@ https://user-images.githubusercontent.com/123878192/233757963-10a14fa6-3e38-46b0
 
   <p>4. Registrar al vendar.</p>
   
+
+https://user-images.githubusercontent.com/123878192/233760625-cb12c3a7-787f-43ae-a44f-7fb2f77d4f3a.mp4
+
+
 </ul>
 
 <h2 id="señalbci">Señal en OpenBCI GUI</h1>
