@@ -9,7 +9,7 @@
       <li> <a href="#obt"> Obtención de la señal  </a> </li>
       <li> <a href="#señalbci"> Señal en OpenBCI GUI </a> </li> 
       <li> <a href="#señalo"> Señal en OpenSignals </a> </li> 
-      <li> <a href="#señalp"> Señal en Python </a> </li> 
+      <li> <a href="#señalp"> Señales en Python </a> </li> 
   	</ul>
   </li>
   <li> <a href="#res"> Resultados </a> 
@@ -109,11 +109,11 @@ https://user-images.githubusercontent.com/123878192/233757413-20cbae95-5ba1-4717
 <ul>
   <li> </a>Ultracortex</a> </li> 
   <p></p>
-  <p align="center"><img src="../../Imagenes/Ultracortex_colocacion.jpeg"></p>
+  <p align="center"><img src="../../Imagenes/"></p>
   
   <li> </a>BiTalino</a> </li> 
   <p></p>
-  <p align="center"><img src="../../Imagenes/BiTalino_EEG_colocacion.png"></p>  
+  <p align="center"><img src="../../Imagenes/"></p>  
   </ul>
   
 </ul>
