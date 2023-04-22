@@ -1,4 +1,13 @@
 <h1>Laboratorio 5: Uso de BiTalino para ECG</h1>
+<h1>Resumen y Explicación:</h1> 
+  <p>El electroencefalograma (EEG) es una técnica no invasiva utilizada para medir la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo. Es una herramienta importante para la evaluación de trastornos neurológicos y psiquiátricos, así como para la investigación en neurociencia.[1]</p>
+
+<p>El EEG mide la actividad eléctrica del cerebro mediante la detección de las corrientes eléctricas generadas por las células cerebrales. Estas señales eléctricas se transmiten a través de las dendritas y los axones de las neuronas y pueden ser detectadas por los electrodos en la superficie del cuero cabelludo. La señal del EEG se registra y se visualiza como un trazado en papel o en una pantalla de ordenador, y puede ser analizada en términos de amplitud, frecuencia y forma de onda.[2]</p>
+
+<p>El EEG se utiliza en una amplia variedad de aplicaciones clínicas y de investigación. En el ámbito clínico, se utiliza para evaluar la actividad eléctrica del cerebro en pacientes con trastornos neurológicos como la epilepsia, el coma y el traumatismo craneal. También se utiliza para evaluar trastornos psiquiátricos como la depresión, la ansiedad y la esquizofrenia. En la investigación, el EEG se utiliza para estudiar la actividad eléctrica del cerebro durante tareas cognitivas y emocionales, y para investigar las bases neurofisiológicas de los trastornos neurológicos y psiquiátricos.[3]</p>
+
+<p>Aunque el EEG es una técnica relativamente sencilla y no invasiva, su interpretación requiere experiencia y habilidad por parte del especialista que lo analiza. La interpretación del EEG se basa en el conocimiento de la anatomía y fisiología cerebral, así como en la comprensión de las características de la señal del EEG y de los patrones de actividad cerebral normales y anormales.[4]</p>
+
 <h1>Tabla de Contenidos</h1>
 <ul>
   <li> <a href="#Objetivos"> Objetivos </a> </li>
@@ -164,4 +173,8 @@ https://user-images.githubusercontent.com/123878192/233760625-cb12c3a7-787f-43ae
 
 </ul> 
 
-
+ <li> </a>Bibliografia</li>
+<p>[1]Niedermeyer, E., & da Silva, F. L. (2004). Electroencephalography: basic principles, clinical applications, and related fields. Lippincott Williams & Wilkins.</p>
+<p>[2]Kappenman, E. S., & Luck, S. J. (2012). The Oxford handbook of event-related potential components. Oxford University Press.</p>
+<p>[3]Michel, C. M., & Koenig, T. (2018). EEG microstates as a tool for studying the temporal dynamics of whole-brain neuronal networks: a review. Neuroimage, 180, 577-593.</p>
+<p>[4]Ibarretxe-Bilbao, N., Junqué, C., Marti, M. J., Tolosa, E., & Brain Reserve and Cognition Group. (2011). Neuropsychological and motor changes in patients with Parkinson's disease with or without depression. Journal of neurology, 258(4), 638-643.</p>
