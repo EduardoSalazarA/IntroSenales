@@ -1,9 +1,10 @@
 <h1>Laboratorio 4: Uso de BiTalino para ECG</h1>
 <p>En este labotorio utilizaremos Bi Talino para electromiografía(EMG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales EMG del software OpenSignals (r)evolution.</p>
-<p align="center"><img src="../../Imagenes/imagprincipal.jpg" width="500"></p>
+<p align="center"><img src="../../Imagenes/principal.gif" width="500"></p>
 
 <h1>Tabla de Contenidos</h1>
 <ul>
+  <li> <a href="#Base"> Base Teórica</a> </li>
   <li> <a href="#Objetivos"> Objetivos </a> </li>
   <li> <a href="#materiales"> Materiales y Equipos </a> </li> 
   <li> <a href="#proce"> Procedimiento  </a> 
@@ -18,15 +19,45 @@
   <li> <a href="#res"> Resultados </a> 
   	<ul>
       <li> <a href="#archiv"> Archivos </a> </li> 
-  	</ul>
-  </li>
+  <li> <a href="#refs"> Referencias  </a> 
+</ul>
+<h2 id="Base">Base Teórica</h1>
+
+  <h2>Electrocardiograma</h1>
+  <p>Es un gráfico en el que se estudian las variaciones de voltaje en relación con el tiempo. Consiste en registrar en papel milimetrado (para facilitar la medición), la actividad de la corriente eléctrica que se está desarrollando en el corazón durante un tiempo determinado [1]</p>
+ <p>La actividad eléctrica del corazón recogida en el ECG se observa en forma de un trazado que presenta diferentes deflexiones (ondas del ECG) que se corresponden con el recorrido de los impulsos eléctricos a través de las diferentes estructuras del corazón.[1]</p>
+</ul>
+<ul>
+<h2>Registro del ECG</h1>
+  <p>Tenemos dos tipos de derivaciones[2]</p>
+  <ul>
+    <li> </a> Plano frontal </a> </li>
+    <p align="center"><img src="../../Imagenes/plano.jpg" width="500"></p>
+    <li> </a> Precordinales </a> </li>
+    <p align="center"><img src="../../Imagenes/precordial.jpg" width="500"></p>
+   </ul>
+<ul>
+<h2>Ondas y Complejos</h1>
+  <ul>
+    <li> </a> La despolarización auricular es la onda P estas son habitualmente ascendentes y ligeramente redondeadas</a> </li>
+    <li> </a> La despolarización ventricular es la onda QRS </a> </li>
+    <li> </a>La repolarización ventricular está representada por la onda T</a> </li>
+    <li> </a> La onda U es relacionada con la repolarización tardía de los ventrículos</a> </li>
+    <li> </a>Una onda de despolarización inicia desde el marcapaso, propagándose [2] </a> </li>
+ </ul>   
+</ul>
+<ul>
+<h2>Intervalos y Segmentos</h1>
+  <p align="center"><img src="../../Imagenes/interyseg.jpg" width="500"></p>
+</ul>
+</ul>
 </ul>
 <h2 id="Objetivos">Objetivos</h1>
 <ul>
   <li> </a> Adquirir señales biomédicas de EMG y ECG </a> </li> 
   <li> </a> Hacer una correcta configuración de BiTalino </a> </li> 
   <li> </a> Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution</a> </li> 
-</ul>
+<ul>
 <h2 id="materiales">Materiales y Equipos</h1>
 <table>
   <tr>
@@ -69,24 +100,30 @@ Dichos electrodos cuentan con un material conductor metálico recubierto de una 
 <h2 id="obt">Obtención de la señal </h1>
 <p> Una vez colocados los electrodos, se puede observar en la pantalla de la laptop la señal en silencio eléctrico o reposo, que es cuando el músculo del brazo  está relajado. Después cuando el músculo se contrae, se puede observar actividad eléctrica en la señal, esto se debe a que las neuronas motoras transmiten señales eléctricas que hacen que los músculos se contraigan. Al terminar de tomar la muestra, gracias al software obtendremos archivos de la señal para poder analizarlos.</p>
 
-https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f-b0d4-fc0837c4b745.mp4
+https://github.com/EduardoSalazarA/IntroSenales/blob/main/Videos/Adquisicion%20de%20ECG%20pac1.mp4
 
 <h2 id="señalo">Señal en OpenSignals</h1>
-<p align="center"><img src="../../Imagenes/emg_signal.png"width="500"></p>
+<p align="center"><img src="../../Imagenes/ECG2seg_P1_normal.jpg" width="800"></p>
+
+<p align="center"><img src="../../Imagenes/ECG2seg_P1_aguantandorespiracion.JPG" width="800"></p>
+
+<p align="center"><img src="../../Imagenes/ECG2seg_P1_burpies.JPG" width="800"></p>
 
 <h2 id="señalp">Señal en Python </h1>
-<p> El archivo de texto obtenido del OpenSignal contiene 6 columnas de los cuales el último corresponde a la señal en bits que recibe el microcontrolador, esos valores se reescalan, en Python, a volts multiplicandolos por 3.3 V(voltaje de operación del ADC del microcontrolador) y se divide entre 1023, que corresponde al máximo valor decimal permitido por el ADC de 10 bits que presenta el BiTalino. Después de procesada la señal se usa la librería matplotlib de python para graficarla. El código usado es el siguiente:https://github.com/EduardoSalazarA/IntroSenales/blob/main/Software/Laboratorio_3_se%C3%B1al_EMG.py
-  <p align="center"><img src="../../Imagenes/EMG_python.png" width="500"></p>
+<p> El archivo de texto obtenido del OpenSignal contiene 6 columnas de los cuales el último corresponde a la señal en bits que recibe el microcontrolador, esos valores se obtuvieron directamente en mV configurando el OpenSignals para que reciba la señal ECG. Después se procedio a plotear en python las señales usando las librerias numpy, matplotlib, pandas, seaborn y re. El codigo usado se encuentra en el siguiente link: (https://github.com/EduardoSalazarA/IntroSenales/blob/main/Software/Laboratorio%204_ECG)
+  <p align="center"><img src="../../Imagenes/ECG_normalS_grid.png" width="500"></p>
+  <p align="center"><img src="../../Imagenes/ECG_burpiesS_grid.png" width="500"></p>
+  <p align="center"><img src="../../Imagenes/ECG_aguantandoS_grid.png" width="500"></p>
   
 </ul>
 <h2 id="disc">Discusión</h1>
 <ul>
-  <p> Analizando la señal pudimos ver que la mayor contraccion muscular y actividad electrica se dio entre 1.4s y 3.3s, 4.9s y 7.1s, 9.4s y 12.7s ,y 13.8s y 15.2s que coincide naturalmente con los momentos en que nuestro compañero con los electrodos ejerció fuerza en su brazo.
+  <p> Dados los resultados, podemos concluir que hay una evidente relacion entre la frecuencia cardiaca y la actividad fisica
 </ul>
 <h2 id="res">Resultados</h1>
 <ul>
-  <li> </a> Podemos observar en la señal los periodos de tiempo cuando se reclutan la mayor cantidad de grupos musculares durante la contraccion reflejado en una mayor actividad electrica y mayor amplitud de la señal.
-  <li> </a> Tambien se identifico los periodos de tiempo en los que el musculo esta activo o en reposo.
+  <li> </a> Se puede observar que la frecuencia de la señal después de realizar ejercicios aumenta con respecto a la posición basal, asimismo las fases de la onda son más cortas y la amplitud máxima en el complejo QRS es menor.
+  <li> </a> También se puede observar que la frecuencia de la señal obtenida después de contener la respiración es similar con respecto a la posición basal, de mismo modo las fases son similares sin embargo la amplitud máxima en el complejo QRS es mayor ya que sobrepasa los 1 mV.
 </ul>
 
 <h2 id="archiv">Archivos</h1>
@@ -94,4 +131,7 @@ https://user-images.githubusercontent.com/123878192/230742542-d72c83f2-d51d-432f
 [Archivos_BiTalino.zip](https://github.com/EduardoSalazarA/IntroSenales/files/11184266/Archivos_BiTalino.zip)
 </ul> 
 
-
+<h2 id="refs">Referencias </h1> 
+<li> </a>1.	https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap4.pdf
+<li> </a>2.	Servicio de Cardiología del Hospital Virgen de la Victoria (Málaga). [En línea]. Electrocardiograma. [Citado el 6 de octubre de 2020]. Disponible desde: http://www.medynet.com/usuarios/jraguilar/Manual%20de%20urgencias%20y%20 Emergencias/ecg.pdf
+</ul> 
