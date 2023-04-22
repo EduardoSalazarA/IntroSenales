@@ -165,7 +165,7 @@ https://user-images.githubusercontent.com/123878192/233760625-cb12c3a7-787f-43ae
 </ul>
 <h2 id="res">Conclusiones</h1>
 <ul>
-  <li> <p>Los picos pronunciados se observan debido a sensaciones como mover un dedo(en el caso de las respiraciones), resolver acertijos matemáticos e incluso estar expuesto a cambios de luminosidad.</p> </a>\
+  <li> <p>Los picos pronunciados se observan debido a sensaciones como mover un dedo(en el caso de las respiraciones), resolver acertijos matemáticos e incluso estar expuesto a cambios de luminosidad.</p> </a>
 </ul>
 
 <h2 id="archiv">Archivos</h1>
