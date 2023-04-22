@@ -133,7 +133,6 @@ https://user-images.githubusercontent.com/123878192/233760625-cb12c3a7-787f-43ae
 <p>2. Registrar la señal de un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.</p>
  
 <p>3. Registrar la señal al hacer preguntas.</p>
-<p align="center"><img src="../../Imagenes/EEG_ejercicio_openbci.png"></p> 
 
 <p>4. Registrar al vendar.</p>
 
