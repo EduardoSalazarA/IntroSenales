@@ -105,9 +105,16 @@ https://user-images.githubusercontent.com/123878192/233757413-20cbae95-5ba1-4717
 <h2 id="señalo">Señal en OpenSignals</h1>
 <p align="center"><img src="../../Imagenes/"></p>
 
-<h2 id="señalp">Señal en Python </h1>
-<p>
-  <p align="center"><img src="../../Imagenes/"></p>
+<h2 id="señalp">Señales en Python </h1>
+<ul>
+  <li> </a>Ultracortex</a> </li> 
+  <p></p>
+  <p align="center"><img src="../../Imagenes/Ultracortex_colocacion.jpeg"></p>
+  
+  <li> </a>BiTalino</a> </li> 
+  <p></p>
+  <p align="center"><img src="../../Imagenes/BiTalino_EEG_colocacion.png"></p>  
+  </ul>
   
 </ul>
 <h2 id="res">Resultados</h1>
