@@ -92,7 +92,7 @@ https://user-images.githubusercontent.com/123878192/233757238-8c47f76f-908b-4600
   <p>3. Registrar la señal al hacer preguntas.</p>
 
 
-https://user-images.githubusercontent.com/123878192/233758135-ba048c05-16bb-4a53-8612-a78d4f5b2f02.mp4
+<p align="center"><img src="../../Imagenes/EEG_ejercicio_openbci.png"></p> 
 
 
   
