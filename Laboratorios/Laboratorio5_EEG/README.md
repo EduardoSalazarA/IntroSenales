@@ -141,8 +141,10 @@ https://user-images.githubusercontent.com/123878192/233760625-cb12c3a7-787f-43ae
   <li> </a>Ultracortex</a> </li> 
   <p>Señal base, ojos cerrados por 30 segundos </p>
   <p align="center"><img src="../../Imagenes/Señales EEG/Estado basal 1.png"></p>
+  <p align="center"><img src="../../Imagenes/EEG/EEG_obci_estado_basal.png"></p>
   <p>Señal cuando se abre y cierra los ojos por intervalos de 5 segundos. </p>
   <p align="center"><img src="../../Imagenes/Señales EEG/Abriendo y cerrando los ojos.png"></p>
+  <p align="center"><img src="../../Imagenes/EEG/EEG_obci_abriendoycerrandoojos.png"></p>
   <p>Señal base por segunda vez, ojos cerrados por 30 segundos. </p>
   <p align="center"><img src="../../Imagenes/Señales EEG/Estado basal 2.png"></p>
   <p align="center"><img src="../../Imagenes/EEG/EEG_obci_estado basal 2.png"></p>
