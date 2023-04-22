@@ -145,8 +145,10 @@ https://user-images.githubusercontent.com/123878192/233760625-cb12c3a7-787f-43ae
   <p align="center"><img src="../../Imagenes/Señales EEG/Abriendo y cerrando los ojos.png"></p>
   <p>Señal base por segunda vez, ojos cerrados por 30 segundos. </p>
   <p align="center"><img src="../../Imagenes/Señales EEG/Estado basal 2.png"></p>
+  <p align="center"><img src="../../Imagenes/EEG/EEG_obci_estado basal 2.png"></p>
   <p>Señal durante cuestionario al sujeto de pruebas. </p>
   <p align="center"><img src="../../Imagenes/Señales EEG/Cuestionario.png"></p>
+  <p align="center"><img src="../../Imagenes/EEG/EEG_ejercicio_openbci.png"></p>
   
   <li> </a>BiTalino</a> </li> 
   <p>Señal base, ojos cerrados por 30 segundos </p>
@@ -157,7 +159,6 @@ https://user-images.githubusercontent.com/123878192/233760625-cb12c3a7-787f-43ae
   <p align="center"><img src="../../Imagenes/EEG/Señal linea base 2.jpeg"></p>
   <p>Señal durante cuestionario al sujeto de pruebas. </p>
   <p align="center"><img src="../../Imagenes/EEG/Señal preguntas.jpeg"></p>
-  <p align="center"><img src="../../Imagenes/EEG/EEG_ejercicio_openbci.png"></p>
   <p>Señal con los ojos vendados y una posterior luz incidente en los ojos cerrados del sujeto de pruebas. </p>
   <p align="center"><img src="../../Imagenes/EEG/Señal ojos vendados.jpeg"></p> 
   <p>Los picos pronunciados se observan debido a sensaciones como mover un dedo(en el caso de las respiraciones), resolver acertijos matemáticos e incluso estar expuesto a cambios de luminosidad.</p>
