@@ -57,7 +57,7 @@
   
   <li> </a>Adquisición por BiTalino</a> </li> 
   <p>Para la colocación del BiTalino nos basamos en la propia guia que proporciona BiTalino para la obtención de señales EEG (https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf). Para esto se utilizaron tres electrodos con al siguiente colocación: el electrodo de referencia se colocó detrás de la oreja derecha, el electrodo positivo arriba de la ceja izquierda y el último electrodo negativo encima arriba de la ceja derecha, como se puede apreciar en la imagen:</p>
-  <p align="center"><img src="../../Imagenes/BiTalino_EEG_colocacion.jpeg"></p>  
+  <p align="center"><img src="../../Imagenes/BiTalino_EEG_colocacion.png"></p>  
   </ul>
 
 <h2 id="obt">Obtención de la señal </h1>
@@ -71,10 +71,16 @@
   <li> </a>Adquisición por Ultracortex</a> </li> 
   <p>1. Registrar la señal en reposo durante 30 segundos.</p>
   
+https://user-images.githubusercontent.com/123878192/233757204-dba60039-ab18-4224-8871-8fb118d07448.mp4
+
   <p>2. Registrar la señal de un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.</p>
-  
+
+
+https://user-images.githubusercontent.com/123878192/233757238-8c47f76f-908b-4600-9aa8-e1f36b1fb1f1.mp4
+
+
   <p>3. Registrar la señal al hacer preguntas.</p>
-  
+
   
   <li> </a>Adquisición por BiTalino</a> </li> 
   <p>1. Registrar la señal en reposo durante 30 segundos.</p>
