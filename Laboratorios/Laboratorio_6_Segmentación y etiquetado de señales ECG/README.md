@@ -2,36 +2,32 @@
 <p>En este labotorio utilizaremos las señales EGC obtenidas por el Bitalino para realizar una segmentación con la cual obtener una sola curva QRS caracteristica de la señal analizada. La curva QRS se etiqueta de acuerdo a la señal a la que correponde y se le asigna un valor .</p>
 <table>
   <tr>
-    <th rowspan="2">Descripción</th>
-    <td>Categoría</td>
-  </tr>
-  <tr>
-    <<th rowspan="2">Basal</th>
-    <td>0</td>
-   </tr>
+    <th>Descripción</th>
+    <td>Categoría</td> </tr>
+    <tr><td>Basal</td>
+    <td>0</td></tr>
+    <tr><td>Respiración</td>
+    <td>1</td></tr>
+    <tr><td>Post-ejercicio</td>
+    <td>2</td></tr>
+    
+ 
+
 <table>
 <p align="center"><img src="../../Imagenes/principal.gif" width="500"></p>
 
 <h1>Tabla de Contenidos</h1>
 <ul>
-  <li> <a href="#Base"> Base Teórica</a> </li>
-  <li> <a href="#Objetivos"> Objetivos </a> </li>
-  <li> <a href="#materiales"> Materiales y Equipos </a> </li> 
-  <li> <a href="#proce"> Procedimiento  </a> 
-  	<ul>
-  		 <li> <a href="#conex"> Conexión  </a> </li> 
-      <li> <a href="#obt"> Obtención de la señal  </a> </li>
-      <li> <a href="#señalo"> Señal en OpenSignals </a> </li> 
-      <li> <a href="#señalp"> Señal en Python </a> </li> 
-  	</ul>
-   <li> <a href="#disc"> Discusión </a> </li>
-  </li>
+  <li> <a href="#Basal"> Consideraciones en el procesamiento de señal ECG basal</a> </li>
+  <li> <a href="#Respiración"> Consideraciones en el procesamiento de señal ECG en respiración </a> </li>
+  <li> <a href="#Ejercicio"> Consideraciones en el procesamiento de señal ECG post-ejercicio </a> </li> 
+
   <li> <a href="#res"> Resultados </a> 
   	<ul>
       <li> <a href="#archiv"> Archivos </a> </li> 
   <li> <a href="#refs"> Referencias  </a> 
 </ul>
-<h2 id="Base">Base Teórica</h1>
+<h2 id="Basal">Consideraciones en el procesamiento de señal ECG basal</h1>
 
   <h2>Electrocardiograma</h1>
   <p>Es un gráfico en el que se estudian las variaciones de voltaje en relación con el tiempo. Consiste en registrar en papel milimetrado (para facilitar la medición), la actividad de la corriente eléctrica que se está desarrollando en el corazón durante un tiempo determinado [1]</p>
@@ -62,13 +58,13 @@
 </ul>
 </ul>
 </ul>
-<h2 id="Objetivos">Objetivos</h1>
+<h2 id="Respiración">Consideraciones en el procesamiento de señal ECG en respiración</h1>
 <ul>
   <li> </a> Adquirir señales biomédicas de EMG y ECG </a> </li> 
   <li> </a> Hacer una correcta configuración de BiTalino </a> </li> 
   <li> </a> Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution</a> </li> 
 <ul>
-<h2 id="materiales">Materiales y Equipos</h1>
+<h2 id="Ejercicio">Consideraciones en el procesamiento de señal ECG post-ejercicio</h1>
 <table>
   <tr>
     <th>Modelo</th>
