@@ -1,4 +1,4 @@
-<h1>Laboratorio 5: Uso de BiTalino para ECG</h1>
+<h1>Laboratorio 5: Uso de BiTalino para EEG</h1>
 <h1>Resumen y Explicación:</h1> 
   <p>El electroencefalograma (EEG) es una técnica no invasiva utilizada para medir la actividad eléctrica del cerebro mediante la colocación de electrodos en el cuero cabelludo. Es una herramienta importante para la evaluación de trastornos neurológicos y psiquiátricos, así como para la investigación en neurociencia.[1]</p>
 
