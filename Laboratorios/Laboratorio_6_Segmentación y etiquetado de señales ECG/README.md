@@ -1,5 +1,15 @@
-<h1>Laboratorio 4: Uso de BiTalino para ECG</h1>
-<p>En este labotorio utilizaremos Bi Talino para electromiografía(EMG). Aprenderemos a adquirir señales biomédicas, configurar correctamente Bi Talino y extraer información de las señales EMG del software OpenSignals (r)evolution.</p>
+<h1>Laboratorio 6: Segmentación y etiquetado para señales de ECG</h1>
+<p>En este labotorio utilizaremos las señales EGC obtenidas por el Bitalino para realizar una segmentación con la cual obtener una sola curva QRS caracteristica de la señal analizada. La curva QRS se etiqueta de acuerdo a la señal a la que correponde y se le asigna un valor .</p>
+<table>
+  <tr>
+    <th rowspan="2">Descripción</th>
+    <td>Categoría</td>
+  </tr>
+  <tr>
+    <<th rowspan="2">Basal</th>
+    <td>0</td>
+   </tr>
+<table>
 <p align="center"><img src="../../Imagenes/principal.gif" width="500"></p>
 
 <h1>Tabla de Contenidos</h1>
