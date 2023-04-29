@@ -38,6 +38,10 @@
   <h2 id="Ejercicio">Consideraciones en el procesamiento de señal ECG en post ejercicio</h2>
   <ul>
   <li>Frecuencia de muestreo: 1000 Hz. Se usa la frecuencia de muestreo del Bitalino </li>
-  <li>Se realiza</li>
+  <li>Se observa la presencia de ruido en los extremos de la señal por lo que se realiza un corte en los datos X y Y</li>
+    <p></p>
+    <p align="center"><img src="../../Imagenes/Segmentación ECG/Señal ejercicio entera.png" width="400"> 
+      <p>Después de realizado el corte la señal que de la siguiente forma.</p>
+      <p align="center"><img src="../../Imagenes/Segmentación ECG/Señal ejercicio recortada.png" width="400"> 
   <li>Elena</li>
   </ul>
