@@ -64,4 +64,4 @@
     <p align="center"><img src="../../Imagenes/Segmentación ECG/Array.png"> 
       
 <h2 id="codigo">Código</h2>
-    <p>El código de python se encuentra en el este <A HREF="https://github.com/EduardoSalazarA/IntroSenales/blob/main/Software/Laboraotrio%206_Segmentaci%C3%B3n_ECG.ipynb"> link</A> </p>
+    <p>El código de python en texto se encuentra en este <A HREF="https://github.com/EduardoSalazarA/IntroSenales/blob/main/Software/Laboraotrio%206_Segmentaci%C3%B3n_ECG.ipynb"> link</A> </p>
