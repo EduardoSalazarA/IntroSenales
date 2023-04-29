@@ -23,23 +23,24 @@
   <ul>
   <li>Frecuencia de muestreo: 1000 Hz. Se usa la frecuencia de muestreo del Bitalino </li>
   <li>Debido a que nuestra señal al inicio presenta data errónea, que no es caracteristica de una señal ECG, se recortó la señal en X, además se realizó un ploteo de los ultimos valores d la señal y obtuvimos que se corta en un pico que puede causar errores al momento de segmentar, recortamos la señal en Y, lo que nos deja una señal recortada de la señal original en un rango de [X:Y] </li>
+    <p></p>
+    <p align="center"><img src="../../Imagenes/Segmentación ECG/Señal basal entera.png" width="400">              
+    <align="center"><img src="../../Imagenes/Segmentación ECG/Señal basal final.png" width="450"></p>
   <li>Ignacio</li>
   <li>Elena</li>
   </ul>
-  <h2>Electrocardiograma</h2>
-  <p>Es un gráfico en el que se estudian las variaciones de voltaje en relación con el tiempo. Consiste en registrar en papel milimetrado (para facilitar la medición), la actividad de la corriente eléctrica que se está desarrollando en el corazón durante un tiempo determinado [1]</p>
- <p>La actividad eléctrica del corazón recogida en el ECG se observa en forma de un trazado que presenta diferentes deflexiones (ondas del ECG) que se corresponden con el recorrido de los impulsos eléctricos a través de las diferentes estructuras del corazón.[1]</p>
-</ul>
-<ul>
-<h2>Registro del ECG</h1>
-  <p>Tenemos dos tipos de derivaciones[2]</p>
+  <h2 id="Respiracion">Consideraciones en el procesamiento de señal ECG en respiración</h2>
   <ul>
-    <li> </a> Plano frontal </a> </li>
-    <p align="center"><img src="../../Imagenes/plano.jpg" width="500"></p>
-    <li> </a> Precordinales </a> </li>
-    <p align="center"><img src="../../Imagenes/precordial.jpg" width="500"></p>
-   </ul>
-<ul>
+  <li>Frecuencia de muestreo: 1000 Hz. Se usa la frecuencia de muestreo del Bitalino </li>
+  <li>Ignacio</li>
+  <li>Elena</li>
+  </ul>
+  <h2 id="Respiracion">Consideraciones en el procesamiento de señal ECG en respiración</h2>
+  <ul>
+  <li>Frecuencia de muestreo: 1000 Hz. Se usa la frecuencia de muestreo del Bitalino </li>
+  <li>Ignacio</li>
+  <li>Elena</li>
+  </ul>
 <h2>Ondas y Complejos</h1>
   <ul>
     <li> </a> La despolarización auricular es la onda P estas son habitualmente ascendentes y ligeramente redondeadas</a> </li>
