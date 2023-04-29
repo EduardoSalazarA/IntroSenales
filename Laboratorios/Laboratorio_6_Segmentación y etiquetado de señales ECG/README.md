@@ -17,31 +17,49 @@
   <li> <a href="#Basal"> Consideraciones en el procesamiento de señal ECG basal</a> </li>
   <li> <a href="#Respiración"> Consideraciones en el procesamiento de señal ECG en respiración </a> </li>
   <li> <a href="#Ejercicio"> Consideraciones en el procesamiento de señal ECG post-ejercicio </a> </li> 
-
+  <li> <a href="#Resultado"> Resultados </a> </li> 
 </ul>
 <h2 id="Basal">Consideraciones en el procesamiento de señal ECG basal</h2>
   <ul>
   <li>Frecuencia de muestreo: 1000 Hz. Se usa la frecuencia de muestreo del Bitalino </li>
-  <li>Debido a que nuestra señal al inicio presenta data errónea, que no es caracteristica de una señal ECG, se recortó la señal en X, además se realizó un ploteo de los ultimos valores d la señal y obtuvimos que se corta en un pico que puede causar errores al momento de segmentar, recortamos la señal en Y, lo que nos deja una señal recortada de la señal original en un rango de [X:Y] </li>
+  <li>DSegun lo que se ve en la graficacion de los datos, la senal original que se obtiene del sensor posee ruido por lo que se procede a recortar dicha senal. El primer punto de corte se hace en 2050, que es donde se empieza los ciclos cardiacos ademas se escoge ese punto ya que es donde aproximadamente empieza la onda P, se puede observar en la grafica de la senal original que antes del punto que escogimos hay dos ciclos cardiacos, pero no se eligieron esos como ciclos iniciales ya que todavia pueden estar afectados por el ruido. El segundo punto de corte se hace en 30457, ya que es donde aproximadamente termina la onda T del penultimo ciclo y empieza la onda P del ultimo ciclo. </li>
     <p></p>
-    <p align="center"><img src="../../Imagenes/Segmentación ECG/Señal basal entera.png" width="400">              
-    <align="center"><img src="../../Imagenes/Segmentación ECG/Señal basal final.png" width="450"></p>
-  <li>Ignacio</li>
-  <li>Elena</li>
-  </ul>
-  <h2 id="Respiracion">Consideraciones en el procesamiento de señal ECG en respiración</h2>
+    <p align="center"><img src="../../Imagenes/Segmentación ECG/Basal zoom.png">              
+  <li>Al momento de realizar la segmentación de la gráfica de la señal, hacemos una gráfica de la señal durante 1 segundo y observamos que el ciclo dura 0.56 segundos. El timepo hallado se usa en la segmentación para obtener partes que solo contengan un ciclo cardiaco. </li>
+      <p></p>   
+      <p align="center"><img src="../../Imagenes/Segmentación ECG/Comparación ciclo basal.png"> 
+     <p></p>    
+  <h2 id="Respiración">Consideraciones en el procesamiento de señal ECG en respiración</h2>
   <ul>
   <li>Frecuencia de muestreo: 1000 Hz. Se usa la frecuencia de muestreo del Bitalino </li>
-  <li>Ignacio</li>
-  <li>Elena</li>
+  <li>Segun lo que se ve en la graficacion de los datos, la senal original que se obtiene del sensor no posee tanto ruido por lo que se hara pequenos recortes para tener puntos fijos de que parte del ciclo cardiaco empezara y terminara nuestra senal. El primer punto de corte se hace en 400, que es donde empieza la onda P del segundo ciclo cardiaco de nuestra senal, ya que el primer ciclo no esta tan claro. El segundo punto de corte se hace en 30829, ya que es donde aproximadamente termina la onda T del penultimo ciclo y empieza la onda P del ultimo ciclo.</li>
+    <p></p>
+    <p align="center"><img src="../../Imagenes/Segmentación ECG/Respiracion zoom.png"></p>
+    <p></p>
+  <li>Al momento de realizar la segmentación de la gráfica de la señal, hacemos una gráfica de la señal durante 1 segundo y observamos que el ciclo dura 0.63 segundos. El timepo hallado se usa en la segmentación para obtener partes que solo contengan un ciclo cardiaco. </li>
+      <p align="center"><img src="../../Imagenes/Segmentación ECG/Comparación ciclo respiracion.png"> 
+     <p></p>    
   </ul>
   <h2 id="Ejercicio">Consideraciones en el procesamiento de señal ECG en post ejercicio</h2>
   <ul>
   <li>Frecuencia de muestreo: 1000 Hz. Se usa la frecuencia de muestreo del Bitalino </li>
-  <li>Se observa la presencia de ruido en los extremos de la señal por lo que se realiza un corte en los datos X y Y</li>
+  <li>Segun lo que se ve en la graficacion de los datos, la senal original que se obtiene del sensor no posee tanto ruido por lo que se hara pequenos recortes para tener puntos fijos de que parte del ciclo cardiaco empezara y terminara nuestra senal. El primer punto de corte se hace en 500, que es donde empieza la onda P del segundo ciclo cardiaco de nuestra senal, para evitar pequenos ruidos que puede haber en el primer ciclo cardiaco que aparece en nuestra senal. El segundo punto de corte se hace en 20156, ya que es donde aproximadamente termina la onda T del penultimo ciclo y empieza la onda P del ultimo ciclo.</li>
     <p></p>
-    <p align="center"><img src="../../Imagenes/Segmentación ECG/Señal ejercicio entera.png" width="400"> 
-      <p>Después de realizado el corte la señal que de la siguiente forma.</p>
-      <p align="center"><img src="../../Imagenes/Segmentación ECG/Señal ejercicio recortada.png" width="400"> 
-  <li>Elena</li>
+    <p align="center"><img src="../../Imagenes/Segmentación ECG/Ejercicio zoom.png"> 
+    <p></p>  
+      <li>Al momento de realizar la segmentación de la gráfica de la señal, hacemos una gráfica de la señal durante 1 segundo y observamos que el ciclo dura 0.37 segundos. El timepo hallado se usa en la segmentación para obtener partes que solo contengan un ciclo cardiaco.</li>
+    <p></p>    
+      <p align="center"><img src="../../Imagenes/Segmentación ECG/Comparación ciclo ejercicio.png"> 
+        <p></p>    
   </ul>
+<h2 id="Resultado">Resultados</h2>
+    <p> Después de la segmentación comprobamos si se ha realizado correctamente, para eso seleccionamos el segmento inicial, el medio y el final de cada señal ECG. </p>
+    <p></p>
+    <p align="center"><img src="../../Imagenes/Segmentación ECG/Resultados.png"> 
+      <p></p>
+    <p>Los arrays resultantes de cada señal fueron arreglados para que contengan la misma cantidad de elementos y se juntaron en solo array que tiene la siguiente gráfica.</p>
+    <p></p>
+    <p align="center"><img src="../../Imagenes/Segmentación ECG/Array.png"> 
+      
+<h2 id="codigo">Código</h2>
+    <p>El código de python se encuentra en el este <A HREF="otra_pagina.html"> link</A> </p>
