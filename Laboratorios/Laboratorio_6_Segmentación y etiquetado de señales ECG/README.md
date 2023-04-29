@@ -35,7 +35,7 @@
   <li>Ignacio</li>
   <li>Elena</li>
   </ul>
-  <h2 id="Respiracion">Consideraciones en el procesamiento de señal ECG en respiración</h2>
+  <h2 id="Ejercicio">Consideraciones en el procesamiento de señal ECG en post ejercicio</h2>
   <ul>
   <li>Frecuencia de muestreo: 1000 Hz. Se usa la frecuencia de muestreo del Bitalino </li>
   <li>Ignacio</li>
