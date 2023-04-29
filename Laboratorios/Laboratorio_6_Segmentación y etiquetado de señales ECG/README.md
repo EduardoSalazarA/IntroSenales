@@ -10,26 +10,23 @@
     <td>1</td></tr>
     <tr><td>Post-ejercicio</td>
     <td>2</td></tr>
-    
- 
-
 <table>
-<p align="center"><img src="../../Imagenes/principal.gif" width="500"></p>
-
-<h1>Tabla de Contenidos</h1>
+  
+<h2>Tabla de Contenidos</h2>
 <ul>
   <li> <a href="#Basal"> Consideraciones en el procesamiento de señal ECG basal</a> </li>
   <li> <a href="#Respiración"> Consideraciones en el procesamiento de señal ECG en respiración </a> </li>
   <li> <a href="#Ejercicio"> Consideraciones en el procesamiento de señal ECG post-ejercicio </a> </li> 
 
-  <li> <a href="#res"> Resultados </a> 
-  	<ul>
-      <li> <a href="#archiv"> Archivos </a> </li> 
-  <li> <a href="#refs"> Referencias  </a> 
 </ul>
-<h2 id="Basal">Consideraciones en el procesamiento de señal ECG basal</h1>
-
-  <h2>Electrocardiograma</h1>
+<h2 id="Basal">Consideraciones en el procesamiento de señal ECG basal</h2>
+  <ul>
+  <li>Frecuencia de muestreo: 1000 Hz. Se usa la frecuencia de muestreo del Bitalino </li>
+  <li>Debido a que nuestra señal al inicio presenta data errónea, que no es caracteristica de una señal ECG, se recortó la señal en X, además se realizó un ploteo de los ultimos valores d la señal y obtuvimos que se corta en un pico que puede causar errores al momento de segmentar, recortamos la señal en Y, lo que nos deja una señal recortada de la señal original en un rango de [X:Y] </li>
+  <li>Ignacio</li>
+  <li>Elena</li>
+  </ul>
+  <h2>Electrocardiograma</h2>
   <p>Es un gráfico en el que se estudian las variaciones de voltaje en relación con el tiempo. Consiste en registrar en papel milimetrado (para facilitar la medición), la actividad de la corriente eléctrica que se está desarrollando en el corazón durante un tiempo determinado [1]</p>
  <p>La actividad eléctrica del corazón recogida en el ECG se observa en forma de un trazado que presenta diferentes deflexiones (ondas del ECG) que se corresponden con el recorrido de los impulsos eléctricos a través de las diferentes estructuras del corazón.[1]</p>
 </ul>
