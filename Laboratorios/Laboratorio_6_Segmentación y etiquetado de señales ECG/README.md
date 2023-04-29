@@ -10,6 +10,7 @@
     <td>1</td></tr>
     <tr><td>Post-ejercicio</td>
     <td>2</td></tr>
+  
 <table>
   
 <h2>Tabla de Contenidos</h2>
@@ -17,7 +18,8 @@
   <li> <a href="#Basal"> Consideraciones en el procesamiento de señal ECG basal</a> </li>
   <li> <a href="#Respiración"> Consideraciones en el procesamiento de señal ECG en respiración </a> </li>
   <li> <a href="#Ejercicio"> Consideraciones en el procesamiento de señal ECG post-ejercicio </a> </li> 
-  <li> <a href="#Resultado"> Resultados </a> </li> 
+  <li> <a href="#Resultado"> Resultados </a> </li>
+  <li> <a href="#codigo"> Código </a> </li> 
 </ul>
 <h2 id="Basal">Consideraciones en el procesamiento de señal ECG basal</h2>
   <ul>
