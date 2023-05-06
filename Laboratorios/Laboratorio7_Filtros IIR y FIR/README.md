@@ -373,10 +373,11 @@ filtfilt_ejercicio = bsnb.lowpass(ejercicio, 100, order=3, use_filtfilt=True)</c
 		</tr>
 	</table>
 <h2 id="conclu">Conclusiones</h2>
-<p>En conclusión, el filtrado de señales fisiológicas como el de ECG es de suma importancia debido a las numerosas señales de ruido que pueden colarse producto de la red eléctrica o del movimiento del paciente. Pudimos comparar la efectividad de los filtros aplicados, tanto del IIR, FIR como del filtrado propuesto usando la librería de BiosignalNotebooks. 
+<p>En conclusión, el filtrado de señales fisiológicas como el de ECG es de suma importancia debido a las numerosas señales de ruido que pueden colarse producto de la red eléctrica o del movimiento del paciente. Pudimos comparar la efectividad de los filtros aplicados, tanto del IIR, FIR como del filtrado propuesto usando la librería de BiosignalNotebooks. Podemos observar que para la señal de post-ejercicio hay una ligera atenuación de esta al usar el filtro FIR. En general se puede decir que para señales de como la del ECG que es de larga duración es más conveniente usar filtros IIR. La razón principal es que los filtros IIR utilizan retrolimentación, lo que permite que el filtro tenga menos coeficientes que un filtro FIR equivalente. Por lo tanto, el costo computacional necesario para implementar un filtro IIR es menor que el de un filtro FIR [5]. Finalmente, podemos notar que la libreria especializada BiosignalNotebooks nos proporciona un filtrado mejor en terminos de calidad y conservación de las principales características de la señal.
 <h2 id="biblio">Bibliografía</h2>
 <p>[1] http://www.vias.org/feee/filters_02.html</p>
 <p>[2] “INTRODUCCIÓN A FILTROS ANALÓGICOS CAPÍTULO 1.” Available: http://catarina.udlap.mx/u_dl_a/tales/documentos/lem/torres_d_ld/capitulo1.pdf</p>
 ‌<p>[3] https://doi.org/10.17533/udea.redin.14718</p>
 <p>[4] http://notebooks.pluxbiosignals.com/notebooks/Categories/Pre-Process/digital_filtering_filtfilt_rev.html</p>
+<p>[5] J. G. Proakis and D. G. Manolakis, "Digital Signal Processing Principles, Algorithms, and Applications," 4th ed. Pearson, 2007, pp. 576-579.
 
