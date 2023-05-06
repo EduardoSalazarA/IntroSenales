@@ -20,7 +20,7 @@ En este laboratorio utilizaremos el dataset de ECG obtenido en el Laboratorio 6 
 <p>Los filtros digitales se pueden clasificar en FIR o IIR dependiendo de su respuesta al impulso. Los filtros FIR cuentan con una respuesta al impulso que solo depende de muestras actuales o pasadas de la entrada. Mientras que en los IIR, su salida depende tambien de muestras pasadas de la salida por lo que tiene términos recursivos que darán lugar a los polos de este tipo de filtros. </p>
 <p> Los filtros FIR se pueden diseñar usando técnicas como la del ventaneo o el método de mínimos cuadrados. Las ventanas que se escogen para diseñar los filtros FIR pueden ayudar a mitigar en mayor o menor medida los efectos del fenómeno de Gibbs.</p>
 <p align="center">
-  <img src="IntroSenales/Imagenes/Filtro FIR IIR/Rectangular_window.png" width="50%" height="50%">
+  <img src="https://github.com/EduardoSalazarA/IntroSenales/blob/main/Imagenes/Filtro%20FIR%20IIR/Rectangular_window.png" width="50%" height="50%">
 </p>
 <p> Los filtros IIR se diseñan usando métodos como la Transformada Bilineal, para discretizar función de transferencia de un filtro analógico. Para este tipo de filtros se puede escoger cualquiera de las aproximaciones usadas en los filtros analógicos como la de: Butterworth (Respuesta en frecuencia plana en la banda pasante y una caída suave hacia la banda de rechazo),  Chebyshev tipo I (respuesta en frecuencia plana en la banda pasante y una caída abrupta hacia la banda de rechazo), Bessel (Se centra en minimizar el retardo de grupo o tiempo de retardo antes que la caída en la banda de paso) o Elíptica (Respuesta en frecuencia plana en la banda pasante y una caída muy abrupta hacia la banda de rechazo).</p>
 <p align="center">
