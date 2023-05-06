@@ -24,7 +24,7 @@ En este laboratorio utilizaremos el dataset de ECG obtenido en el Laboratorio 6 
 </p>
 <p> Los filtros IIR se diseñan usando métodos como la Transformada Bilineal, para discretizar función de transferencia de un filtro analógico. Para este tipo de filtros se puede escoger cualquiera de las aproximaciones usadas en los filtros analógicos como la de: Butterworth (Respuesta en frecuencia plana en la banda pasante y una caída suave hacia la banda de rechazo),  Chebyshev tipo I (respuesta en frecuencia plana en la banda pasante y una caída abrupta hacia la banda de rechazo), Bessel (Se centra en minimizar el retardo de grupo o tiempo de retardo antes que la caída en la banda de paso) o Elíptica (Respuesta en frecuencia plana en la banda pasante y una caída muy abrupta hacia la banda de rechazo).</p>
 <p align="center">
-  <img src="IntroSenales/Imagenes/Filtro FIR IIR/Freq_response_curve.png" width="50%" height="50%">
+  <img src="https://github.com/EduardoSalazarA/IntroSenales/blob/main/Imagenes/Filtro%20FIR%20IIR/Freq_response_curve.png" width="50%" height="50%">
 </p>
 <h2 id="metodo">Metodología</h2>
 <h3 id="profe">Usando filtro FIR e IIR</h2> 
