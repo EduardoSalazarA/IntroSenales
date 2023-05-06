@@ -171,24 +171,24 @@ filtfilt_ejercicio = bsnb.lowpass(ejercicio, 100, order=3, use_filtfilt=True)</c
 		</tr>
 		<tr>
 			<td>Basal</td>
-			<td>Fila 1, Columna 2</td>
-			<td>Fila 1, Columna 3</td>
-			<td>Fila 1, Columna 4</td>
-			<td>Fila 1, Columna 5</td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Basal original.jpg"></p> </td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Basal FIR.jpg"></p> </td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Basal IIR.jpg"></p> </td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Basal bitalino.png"></p> </td>
 		</tr>
 		<tr>
 			<td>Respiración</td>
-			<td>Fila 2, Columna 2</td>
-			<td>Fila 2, Columna 3</td>
-			<td>Fila 2, Columna 4</td>
-			<td>Fila 2, Columna 5</td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Respiracion original.jpg"></p> </td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Respiracion FIR.jpg"></p> </td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Respiracion IIR.jpg"></p> </td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Respiracion bitalino.png"></p> </td>
 		</tr>
 		<tr>
 			<td>Post-ejercicio</td>
-			<td>Fila 3, Columna 2</td>
-			<td>Fila 3, Columna 3</td>
-			<td>Fila 3, Columna 4</td>
-			<td>Fila 3, Columna 5</td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Ejercicio original.jpg"></p> </td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Ejercicio FIR.jpg"></p> </td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Ejercicio IIR.jpg"></p> </td>
+			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Ejercicio bitalino.png"></p> </td>
 		</tr>
 	</table>
 <h2 id="conclu">Conclusiones</h2>
