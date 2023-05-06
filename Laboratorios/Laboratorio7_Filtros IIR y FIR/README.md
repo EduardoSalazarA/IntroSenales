@@ -15,8 +15,8 @@ En este laboratorio utilizaremos el dataset de ECG obtenido en el Laboratorio 6 
 </ul>
 
 <h2 id="intro">Introducción</h2>
-<p>Un filtro se define como un sistema que permite el paso de señales eléctricas dentro de un rango de frecuencias específico y limitado, bloqueando o impidiendo el paso de todas aquellas señales que se encuentran fuera de este rango. La aplicación de estos destacan en las telecomunicaciones (TV, radio, módem, etc) y en la instrumentación electrónica (sistemas de adquisición de datos, procesamiento de señales, etc)  [1]. </p>
-<p>En el procesamiento de señales, se utiliza el término “filtro” para referirse a un dispositivo o proceso responsable de suprimir parcial o totalmente ciertas características o componentes no deseados de una señal. En la práctica, esto puede significar eliminar ciertas frecuencias de la señal para reducir el ruido de fondo y suprimir las señales de interferencia que pueden afectar la calidad de la señal. [2]</p>
+<p>Un filtro se define como un circuito o sistema capaz de dejar pasar selectivamente señales eléctricas dentro de un rango de frecuencias específico a partir de una señal de entrada que consta de una combinación de diferentes frecuencias. Una aplicación común de los filtros se da en sistemas estéreo de alto rendimiento, donde ciertos rangos de frecuencias de audio necesitan ser amplificados o suprimidos para mejorar la calidad del audio o la eficiencia en términos de uso de energía [1]. </p>
+<p></p>
 <h2 id="metodo">Metodología</h2>
 <h3 id="profe">Usando filtro FIR e IIR</h2> 
 <p>Realizamos el filtrado mediante el uso de un filtro FIR y un filtro IIR.</p>
