@@ -19,9 +19,175 @@ En este laboratorio utilizaremos el dataset de ECG obtenido en el Laboratorio 6 
 <p>En el procesamiento de señales, se utiliza el término “filtro” para referirse a un dispositivo o proceso responsable de suprimir parcial o totalmente ciertas características o componentes no deseados de una señal. En la práctica, esto puede significar eliminar ciertas frecuencias de la señal para reducir el ruido de fondo y suprimir las señales de interferencia que pueden afectar la calidad de la señal. [2]</p>
 <h2 id="metodo">Metodología</h2>
 <h3 id="profe">Usando filtro FIR e IIR</h2> 
+<p>Realizamos el filtrado mediante el uso de un filtro FIR y un filtro IIR.</p>
+<p>Primero incluimos las librerías que vamos a usar para el diseño de los filtros.</p>
+<pre>
+<code>#Importación de librerías
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+
+#Seleccionamos estilo de ploteo
+plt.style.use("ggplot")</code>
+</pre>
+<p>Realizamos la lectura de las señales que se encuentran en archivo .txt para ello usamos la librería numpy.</p>
+<pre>
+<code>#Lectura de documento txt con tabulación (/t) como delimitador
+array1 = np.genfromtxt("Basal_ECG.txt", delimiter="\t")
+array2 = np.genfromtxt("Aguantando_respiracion_ECG.txt", delimiter="\t")
+array3 = np.genfromtxt("Post_ejercicio_ECG.txt", delimiter="\t")
+
+#Nos quedamos con el dato del sensor
+basal_sensor = array1[:,-2]
+resp_sensor = array2[:,-2]
+ejer_sensor = array3[:,-2]</code>
+</pre>
+<p>Calculamos la FFT de cada una de las señales y las graficamos.</p>
+<pre>
+<code>def plot_FFT(signal, n_signal, Fs, plot_title, plot_xlim):
+    N = len(n_signal)
+    X = np.fft.fft(signal, N)
+    
+    X = X[0:N//2]
+    F = np.linspace(0, Fs/2, N//2)
+    
+    Xm = np.abs(X)
+    Xm = np.round(Xm,3)
+    Xm[0] = 0
+    
+    plt.figure(figsize=(20, 4))
+    plt.plot(F,Xm)
+    plt.title(plot_title)
+    plt.xlabel("Frequency")
+    plt.xlim(0, plot_xlim)
+    return X
+
+Fs = 1000
+
+n_basal = np.arange(0,basal_sensor.shape[0])
+n_resp = np.arange(0,resp_sensor.shape[0])
+n_ejer = np.arange(0,ejer_sensor.shape[0])
+
+FFT_basal = plot_FFT(basal_sensor, n_basal, Fs, 'Basal', 150)
+FFT_resp = plot_FFT(resp_sensor, n_resp, Fs, 'Respiracion', 150)
+FFT_ejer = plot_FFT(ejer_sensor, n_ejer, Fs, 'Post-ejercicio', 150)</code>
+</pre>
+<p></p>
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT basal.png"></p> 
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT respiracion.png"></p> 
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT ejercicio.png"></p> 
+<p></p>
+<p>Creamos el filtro FIR pasabandas con un metodo de enventanado Hamming,con frecuencias de corte inferior de 0.5 Hz y de corte superior de 100 Hz [3]. También se realizó un filtro Notch para eliminar el ruido electrico con frecuencia de 60 Hz .</p>
+<pre>
+<code>import scipy.signal as sig
+
+#Se utilizo esta longitud de la ventana, principalmente por su precision a las frecuencias bajas, ya que por bibliografia las señales de ruido de un ECG
+#son menores a 0.5Hz y mayores a 100Hz
+M = 601
+
+def filtro_FIR(M, Fs, f1, f2, signal):
+    #Filtro FIR
+    w = sig.firwin(numtaps=M, fs=Fs, pass_zero=False, cutoff=[f1,f2], window='hamming')
+    w = np.round(w,3)
+    y = sig.lfilter(w, np.array(1),signal)
+    
+    #Coeficientes para el filtro notch que filtrada el ruido electrico w0=60Hz, con un factor de calidad Q=w0/bw, si queremos un ancho de banda de 2Hz -> Q=30
+    b, a = sig.iirnotch(w0=60, Q=30, fs=Fs)  
+     
+    #Filtramos el ruido electrico que se encuentra en 60Hz
+    y = sig.filtfilt(b, a, y)
+    
+    return y, w
+
+filtro = filtro_FIR(M, Fs, 0.5, 100, basal_sensor)[1]
+plot_filtro = plot_FFT(filtro, n_basal, Fs, 'Filtro', 150)
+
+basal_fir = filtro_FIR(M, Fs, 0.5, 100, basal_sensor)[0]
+FFT_basalFIR = plot_FFT(basal_fir, n_basal, Fs, 'Basal filtrada', 150)
+
+resp_fir = filtro_FIR(M, Fs, 0.5, 100, resp_sensor)[0]
+FFT_respFIR = plot_FFT(resp_fir, n_resp, Fs, 'Respiracion filtrada', 150)
+
+ejer_fir = filtro_FIR(M, Fs, 0.5, 100, ejer_sensor)[0]
+FFT_ejerFIR = plot_FFT(ejer_fir, n_ejer, Fs, 'Post-ejercicio filtrada', 150)</code>
+</pre>
+<p>Graficamos el espectro de frecuencia filtrado de cada señal.</p>
+<p></p>
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/Espectro filtro FIR.png">
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT basal filtrado.png">
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT respiracion filtrado.png">
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT ejercicio filtrado.png">
+<p></p>
+<p>Graficamos las señales filtradas y la señal con el desfase arreglado.</p>
+<p></p>
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/Señales filtradas FIR.png">
+<p></p>
+<p>Creamos el filtro IIR Butterworth pasabandas  con las mismas frecuencias de corte que el filtro FIR, frecuencia de corte inferior igual a 0.5 Hz y frecuencia de corte superior igual a 100 Hz, .</p>
+<pre>
+<code>from scipy import signal
+import matplotlib.pyplot as plt
+import numpy as np
+
+#Especificaciones del filtro
+fc1 = 0.5  # frecuencia de corte inferior
+fc2 = 100  # frecuencia de corte superior
+order = 2  # orden del filtro
+
+#Diseñar filtro
+b, a = signal.butter(order, [fc1/(Fs/2), fc2/(Fs/2)], btype='bandpass')
+w, h = signal.freqz(b, a, worN=8000)
+f = w / (2 * np.pi) * fs
+db = 20 * np.log10(abs(h))
+
+#Gráfico de respuesta en frecuencia del filtro
+fig, ax = plt.subplots(figsize=(16,3))
+ax.plot(f, db)
+ax.set_xscale('log')
+ax.set_xlabel('Frecuencia (Hz)')
+ax.set_ylabel('Magnitud (dB)')
+ax.set_title('Respuesta en frecuencia del filtro IIR Butterworth')
+ax.axvline(x=fc1, color='r', linestyle='--')
+ax.axvline(x=fc2, color='r', linestyle='--')
+plt.show()
+
+#Aplicando filtro IIR
+basal_iir = sig.filtfilt(b, a, basal_sensor)
+resp_iir = signal.filtfilt(b, a, resp_sensor)
+ejer_iir = signal.filtfilt(b, a, ejer_sensor)
+
+
+#Coeficientes para el filtro notch que filtrada el ruido electrico w0=60Hz, con un factor de calidad Q=w0/bw, si queremos un ancho de banda de 2Hz -> Q=30
+bn, an = sig.iirnotch(w0=60, Q=30, fs=Fs)  
+     
+#Filtramos el ruido electrico que se encuentra en 60Hz
+basal_iir = sig.filtfilt(bn, an, basal_iir)
+FFT_basalIIR = plot_FFT(basal_iir, n_basal, Fs, 'Basal filtrada', 150)
+
+resp_iir = sig.filtfilt(bn, an, resp_iir)
+FFT_respIIR = plot_FFT(resp_iir, n_resp, Fs, 'Respiracion filtrada', 150)
+
+ejer_iir = sig.filtfilt(bn, an, ejer_iir)
+FFT_ejerIIR = plot_FFT(ejer_iir, n_ejer, Fs, 'Post-ejercicio filtrada', 150)</code>
+</pre>
+<p>Graficamos el espectro de frecuencia filtrado de cada señal.</p>
+<p></p>
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/Espectro filtro IIR.png">
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT basal filtrado IIR.png">
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT respiracion filtrado IIR.png">
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT ejercicio filtrado IIR.png">
+<p></p>
+<p>Graficamos las señales filtradas y la señal con el desfase arreglado.</p>
+<p></p>
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/Señales filtradas IIR.png">
+<p></p>
+<p>Hacemos una gráfica para comparar el filtro FIR del filtro IIR.</p>
+<p></p>
+<p align="center"><img src="../../Imagenes/Filtro FIR IIR/Comparación FIR IIR.png">
+<p></p>
+
 <h3 id="bita">Usando librería de BiosignalsNotebooks</h2> 
-<p>Para realizar el filtrado de la señal mediante la librería BiosignalsNotebooks nos guiamos de la siguiente página: http://notebooks.pluxbiosignals.com/notebooks/Categories/Pre-Process/digital_filtering_filtfilt_rev.html</p>
-<p>Primero incluimos todas las librerías que vamos a usar para el diseño de filtros.</p>
+<p>Para realizar el filtrado de la señal mediante la librería BiosignalsNotebooks nos guiamos de la siguiente página [4] </p>
+<p>Primero incluimos todas las librerías que vamos a usar para el diseño de los filtros.</p>
 <pre>
 <code>import biosignalsnotebooks as bsnb
 from numpy import arange, sin, pi
@@ -193,3 +359,8 @@ filtfilt_ejercicio = bsnb.lowpass(ejercicio, 100, order=3, use_filtfilt=True)</c
 	</table>
 <h2 id="conclu">Conclusiones</h2>
 <h2 id="biblio">Bibliografía</h2>
+<p>[1]</p>
+<p>[2]</p>
+<p>[3] https://doi.org/10.17533/udea.redin.14718</p>
+<p>[4] http://notebooks.pluxbiosignals.com/notebooks/Categories/Pre-Process/digital_filtering_filtfilt_rev.html</p>
+
