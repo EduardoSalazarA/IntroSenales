@@ -18,10 +18,11 @@ En este laboratorio utilizaremos el dataset de ECG obtenido en el Laboratorio 6 
 <p>Un filtro se define como un circuito o sistema capaz de dejar pasar selectivamente señales eléctricas dentro de un rango de frecuencias específico a partir de una señal de entrada que consta de una combinación de diferentes frecuencias. Una aplicación común de los filtros se da en sistemas estéreo de alto rendimiento, donde ciertos rangos de frecuencias de audio necesitan ser amplificados o suprimidos para mejorar la calidad del audio o la eficiencia en términos de uso de energía [1]. </p>
 <p>Los filtros se pueden clasificar en analógicos o digitales. Los filtros analógicos se aplican a señales en tiempo continuo y se pueden dividir en activos o pasivos. Los filtros pasivos se construyen usando solamente componentes pasivos como resistencias, condensadores y bobinas, que no consumen potencia. En cambio, los filtros activos se construyen usando componentes que consumen potencia como los amplificadores operacionales [2].</p>
 <p>Los filtros digitales se pueden clasificar en FIR o IIR dependiendo de su respuesta al impulso. Los filtros FIR cuentan con una respuesta al impulso que solo depende de muestras actuales o pasadas de la entrada. Mientras que en los IIR, su salida depende tambien de muestras pasadas de la salida por lo que tiene términos recursivos que darán lugar a los polos de este tipo de filtros. </p>
-<p> Los filtros FIR se pueden diseñar usando técnicas como la del ventaneo o el método de mínimos cuadrados. Las ventanas que se escogen para diseñar los filtros FIR pueden ayudar a mitigar en mayor o menor medida los efectos del fenómeno de Gibbs.
+<p> Los filtros FIR se pueden diseñar usando técnicas como la del ventaneo o el método de mínimos cuadrados. Las ventanas que se escogen para diseñar los filtros FIR pueden ayudar a mitigar en mayor o menor medida los efectos del fenómeno de Gibbs
 <p align="center">
   <img src="" width="50%" height="50%">
 </p>
+<p> Los filtros IIR se diseñan usando métodos como la Transformada Bilineal, para discretizar función de transferencia de un filtro analógico. Para este tipo de filtros se puede escoger cualquiera de las aproximaciones usadas en los filtros analógicos como la de: Butterworth (Respuesta en frecuencia plana en la banda pasante y una caída suave hacia la banda de rechazo)
 <h2 id="metodo">Metodología</h2>
 <h3 id="profe">Usando filtro FIR e IIR</h2> 
 <p>Realizamos el filtrado mediante el uso de un filtro FIR y un filtro IIR.</p>
