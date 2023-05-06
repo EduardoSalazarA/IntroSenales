@@ -20,7 +20,43 @@ En este laboratorio utilizaremos el dataset de ECG obtenido en el Laboratorio 6 
 <h2 id="metodo">Metodología</h2>
 <h3 id="profe">Usando filtro FIR e IIR</h2> 
 <h3 id="bita">Usando librería de BiosignalsNotebooks</h2> 
+<p>Para realizar el filtrado de la señal mediante la librería BiosignalsNotebooks nos guiamos de la siguiente página: http://notebooks.pluxbiosignals.com/notebooks/Categories/Pre-Process/digital_filtering_filtfilt_rev.html</p>
+<p>Primero incluimos todas las librerías que vamos a usar para el diseño de filtros.</p>
+<p></p>
 
+<p></p>
+<p>Iniciamos con la lectura de las señales que estan en archivos .txt, para esto usamos la librería numpy.</p>
+<p></p>
+
+<p></p>
+<p>Cortamos las señales en el inicio y el final para eliminar los errores que se generan al inicio y final de la medición.</p>
+<p></p>
+
+<p></p>
+<p>Definimos la frecuencia de muestreo en 1000 Hz debido a que la frecuencia del Bitalino es esa.</p>
+<p></p>
+
+<p></p>
+<p>Hallamos los espectros de frecuencia de cada señal, para ello realizamos la FFT de cada una.</p>
+<p></p>
+
+<p></p>
+<p>La gráficas de los espectros de frecuencia son los siguientes.</p>
+<p></p>
+
+<p></p>
+<p>Según bibliografía la frecuencia de un electrocardiograma va desde 0 a 100 Hz [3], sin embargo, como en nuestras señales observamos que la información se agrupa en las frecuencias más bajas las decidimos cortar antes del pico que representa el ruido eléctrico, para la señal basal la frecuencia de corte la establecimos como  30 Hz, para la señal aguantando la respiración la frecuencia de corte serála establecimos como  40 Hz y por ultimo para la señal post-ejercicio la frecuencia de corte la establecimos como 50 Hz .</p>
+<p></p>
+
+<p></p>
+<p>Con la librería de BiosignalNotebooks creamos los filtros para cada caso.</p>
+<p></p>
+
+<p></p>
+<p>Graficamos la señal correspondiente junto con las señales filtradas.</p>
+<p></p>
+
+<p></p>
 <h2 id="tabla">Tabla de resumen</h2>
 <h2 id="conclu">Conclusiones</h2>
 <h2 id="biblio">Bibliografía</h2>
