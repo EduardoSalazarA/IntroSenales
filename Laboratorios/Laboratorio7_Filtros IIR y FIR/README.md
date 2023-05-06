@@ -373,6 +373,7 @@ filtfilt_ejercicio = bsnb.lowpass(ejercicio, 100, order=3, use_filtfilt=True)</c
 		</tr>
 	</table>
 <h2 id="conclu">Conclusiones</h2>
+<p>En conclusión, el filtrado de señales fisiológicas como el de ECG es de suma importancia debido a las numerosas señales de ruido que pueden colarse producto de la red eléctrica o del movimiento del paciente. Pudimos comparar la efectividad de los filtros aplicados, tanto del IIR, FIR como del filtrado propuesto usando la librería de BiosignalNotebooks. 
 <h2 id="biblio">Bibliografía</h2>
 <p>[1] http://www.vias.org/feee/filters_02.html</p>
 <p>[2] “INTRODUCCIÓN A FILTROS ANALÓGICOS CAPÍTULO 1.” Available: http://catarina.udlap.mx/u_dl_a/tales/documentos/lem/torres_d_ld/capitulo1.pdf</p>
