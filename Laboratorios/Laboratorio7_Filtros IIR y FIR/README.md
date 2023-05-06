@@ -132,6 +132,7 @@ axs[2, 1].set_ylim(0,10000)</code>
 </pre>
 <p></p>
 <p>La gráficas de los espectros de frecuencia son los siguientes.</p>
+<p align="center"><img src="../../Imagenes/Filtro_bitalino/Señales con FFT.png"></p> 
 <p></p>
 
 <p></p>
@@ -155,6 +156,7 @@ filtfilt_ejercicio = bsnb.lowpass(ejercicio, 100, order=3, use_filtfilt=True)</c
 </pre>
 <p></p>
 <p>Graficamos la señal correspondiente junto con las señales filtradas.</p>
+<p align="center"><img src="../../Imagenes/Filtro_bitalino/Señales con señal filtrada.png"></p> 
 <p></p>
 
 <p></p>
