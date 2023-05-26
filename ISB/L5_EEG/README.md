@@ -63,11 +63,11 @@
   <ul>
   <li> </a>Adquisición por Ultracortex</a> </li> 
   <p>Para la colocación del del casco Ultracortex se utilizó la posición estándar de 10/20 para la adquisición de señal EEG. Como se puede ver en la imagen:</p>
-  <p align="center"><img src="../../Imagenes/Ultracortex_colocacion.jpeg"></p>
+  <p align="center"><img src="../Imagenes/Ultracortex_colocacion.jpeg"></p>
   
   <li> </a>Adquisición por BiTalino</a> </li> 
   <p>Para la colocación del BiTalino nos basamos en la propia guia que proporciona BiTalino para la obtención de señales EEG (https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf). Para esto se utilizaron tres electrodos con al siguiente colocación: el electrodo de referencia se colocó detrás de la oreja derecha, el electrodo positivo arriba de la ceja izquierda y el último electrodo negativo encima arriba de la ceja derecha, como se puede apreciar en la imagen:</p>
-  <p align="center"><img src="../../Imagenes/BiTalino_EEG_colocacion.png"></p>  
+  <p align="center"><img src="../Imagenes/BiTalino_EEG_colocacion.png"></p>  
   </ul>
 
 <h2 id="obt">Obtención de la señal </h1>
@@ -99,7 +99,7 @@ https://user-images.githubusercontent.com/123878192/233757238-8c47f76f-908b-4600
   <li> </a>Adquisición por BiTalino</a> </li> 
   <p>1. Registrar la señal en reposo durante 30 segundos.</p>
   
-   <p align="center"><img src="../../Imagenes/Bitalino_eeg_reposo.png"></p>  
+   <p align="center"><img src="../Imagenes/Bitalino_eeg_reposo.png"></p>  
   <p>2. Registrar la señal de un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.</p>
   
 
@@ -140,29 +140,29 @@ https://user-images.githubusercontent.com/123878192/233760625-cb12c3a7-787f-43ae
 <ul>
   <li> </a>Ultracortex</a> </li> 
   <p>Señal base, ojos cerrados por 30 segundos </p>
-  <p align="center"><img src="../../Imagenes/Señales EEG/Estado basal 1.png"></p>
-  <p align="center"><img src="../../Imagenes/EEG/EEG_obci_estado_basal.png"></p>
+  <p align="center"><img src="../Imagenes/Señales EEG/Estado basal 1.png"></p>
+  <p align="center"><img src="../Imagenes/EEG/EEG_obci_estado_basal.png"></p>
   <p>Señal cuando se abre y cierra los ojos por intervalos de 5 segundos. </p>
-  <p align="center"><img src="../../Imagenes/Señales EEG/Abriendo y cerrando los ojos.png"></p>
-  <p align="center"><img src="../../Imagenes/EEG/EEG_obci_abriendoycerrandoojos.png"></p>
+  <p align="center"><img src="../Imagenes/Señales EEG/Abriendo y cerrando los ojos.png"></p>
+  <p align="center"><img src="../Imagenes/EEG/EEG_obci_abriendoycerrandoojos.png"></p>
   <p>Señal base por segunda vez, ojos cerrados por 30 segundos. </p>
-  <p align="center"><img src="../../Imagenes/Señales EEG/Estado basal 2.png"></p>
-  <p align="center"><img src="../../Imagenes/EEG/EEG_obci_estado basal 2.png"></p>
+  <p align="center"><img src="../Imagenes/Señales EEG/Estado basal 2.png"></p>
+  <p align="center"><img src="../Imagenes/EEG/EEG_obci_estado basal 2.png"></p>
   <p>Señal durante cuestionario al sujeto de pruebas. </p>
-  <p align="center"><img src="../../Imagenes/Señales EEG/Cuestionario.png"></p>
-  <p align="center"><img src="../../Imagenes/EEG/EEG_ejercicio_openbci.png"></p>
+  <p align="center"><img src="../Imagenes/Señales EEG/Cuestionario.png"></p>
+  <p align="center"><img src="../Imagenes/EEG/EEG_ejercicio_openbci.png"></p>
   
   <li> </a>BiTalino</a> </li> 
   <p>Señal base, ojos cerrados por 30 segundos </p>
-  <p align="center"><img src="../../Imagenes/EEG/Señal linea base 1.jpeg"></p>
+  <p align="center"><img src="../Imagenes/EEG/Señal linea base 1.jpeg"></p>
   <p>Señal cuando se abre y cierra los ojos por intervalos de 5 segundos. </p>
-  <p align="center"><img src="../../Imagenes/EEG/Señal abrir cerrar ojos.jpeg"></p>
+  <p align="center"><img src="../Imagenes/EEG/Señal abrir cerrar ojos.jpeg"></p>
   <p>Señal base por segunda vez, ojos cerrados por 30 segundos. </p>
-  <p align="center"><img src="../../Imagenes/EEG/Señal linea base 2.jpeg"></p>
+  <p align="center"><img src="../Imagenes/EEG/Señal linea base 2.jpeg"></p>
   <p>Señal durante cuestionario al sujeto de pruebas. </p>
-  <p align="center"><img src="../../Imagenes/EEG/Señal preguntas.jpeg"></p>
+  <p align="center"><img src="../Imagenes/EEG/Señal preguntas.jpeg"></p>
   <p>Señal con los ojos vendados y una posterior luz incidente en los ojos cerrados del sujeto de pruebas. </p>
-  <p align="center"><img src="../../Imagenes/EEG/Señal ojos vendados.jpeg"></p> 
+  <p align="center"><img src="../Imagenes/EEG/Señal ojos vendados.jpeg"></p> 
   <p>Los picos pronunciados se observan debido a sensaciones como mover un dedo(en el caso de las respiraciones), resolver acertijos matemáticos e incluso estar expuesto a cambios de luminosidad.</p>
   </ul>
   

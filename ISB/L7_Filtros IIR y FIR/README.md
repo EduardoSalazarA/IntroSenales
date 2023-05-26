@@ -88,9 +88,9 @@ FFT_resp = plot_FFT(resp_sensor, n_resp, Fs, 'Respiracion', 150)
 FFT_ejer = plot_FFT(ejer_sensor, n_ejer, Fs, 'Post-ejercicio', 150)</code>
 </pre>
 <p></p>
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT basal.png"></p> 
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT respiracion.png"></p> 
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT ejercicio.png"></p> 
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/FFT basal.png"></p> 
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/FFT respiracion.png"></p> 
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/FFT ejercicio.png"></p> 
 <p></p>
 <p>Creamos el filtro FIR pasabandas con un metodo de enventanado Hamming,con frecuencias de corte inferior de 0.5 Hz y de corte superior de 100 Hz [3]. También se realizó un filtro Notch para eliminar el ruido electrico con frecuencia de 60 Hz .</p>
 <pre>
@@ -128,14 +128,14 @@ FFT_ejerFIR = plot_FFT(ejer_fir, n_ejer, Fs, 'Post-ejercicio filtrada', 150)</co
 </pre>
 <p>Graficamos el espectro de frecuencia filtrado de cada señal.</p>
 <p></p>
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/Espectro filtro FIR.png">
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT basal filtrado.png">
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT respiracion filtrado.png">
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT ejercicio filtrado.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/Espectro filtro FIR.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/FFT basal filtrado.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/FFT respiracion filtrado.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/FFT ejercicio filtrado.png">
 <p></p>
 <p>Graficamos las señales filtradas y la señal con el desfase arreglado.</p>
 <p></p>
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/Señales filtradas FIR.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/Señales filtradas FIR.png">
 <p></p>
 <p>Creamos el filtro IIR Butterworth pasabandas  con las mismas frecuencias de corte que el filtro FIR, frecuencia de corte inferior igual a 0.5 Hz y frecuencia de corte superior igual a 100 Hz, .</p>
 <pre>
@@ -186,18 +186,18 @@ FFT_ejerIIR = plot_FFT(ejer_iir, n_ejer, Fs, 'Post-ejercicio filtrada', 150)</co
 </pre>
 <p>Graficamos el espectro de frecuencia filtrado de cada señal.</p>
 <p></p>
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/Espectro filtro IIR.png">
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT basal filtrado IIR.png">
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT respiracion filtrado IIR.png">
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/FFT ejercicio filtrado IIR.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/Espectro filtro IIR.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/FFT basal filtrado IIR.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/FFT respiracion filtrado IIR.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/FFT ejercicio filtrado IIR.png">
 <p></p>
 <p>Graficamos las señales filtradas y la señal con el desfase arreglado.</p>
 <p></p>
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/Señales filtradas IIR.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/Señales filtradas IIR.png">
 <p></p>
 <p>Hacemos una gráfica para comparar el filtro FIR del filtro IIR.</p>
 <p></p>
-<p align="center"><img src="../../Imagenes/Filtro FIR IIR/Comparación FIR IIR.png">
+<p align="center"><img src="../Imagenes/Filtro FIR IIR/Comparación FIR IIR.png">
 <p></p>
 
 <h3 id="bita">Usando librería de BiosignalsNotebooks</h2> 
@@ -313,7 +313,7 @@ axs[2, 1].set_ylim(0,10000)</code>
 </pre>
 <p></p>
 <p>La gráficas de los espectros de frecuencia son los siguientes.</p>
-<p align="center"><img src="../../Imagenes/Filtro_bitalino/Señales con FFT.png"></p> 
+<p align="center"><img src="../Imagenes/Filtro_bitalino/Señales con FFT.png"></p> 
 <p></p>
 
 <p></p>
@@ -337,7 +337,7 @@ filtfilt_ejercicio = bsnb.lowpass(ejercicio, 100, order=3, use_filtfilt=True)</c
 </pre>
 <p></p>
 <p>Graficamos la señal correspondiente junto con las señales filtradas.</p>
-<p align="center"><img src="../../Imagenes/Filtro_bitalino/Señales con señal filtrada.png"></p> 
+<p align="center"><img src="../Imagenes/Filtro_bitalino/Señales con señal filtrada.png"></p> 
 <p></p>
 
 <p></p>
@@ -352,24 +352,24 @@ filtfilt_ejercicio = bsnb.lowpass(ejercicio, 100, order=3, use_filtfilt=True)</c
 		</tr>
 		<tr>
 			<td>Basal</td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Basal original.jpg"></p> </td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Basal FIR.jpg"></p> </td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Basal IIR.jpg"></p> </td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Basal bitalino.png"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Basal original.jpg"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Basal FIR.jpg"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Basal IIR.jpg"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Basal bitalino.png"></p> </td>
 		</tr>
 		<tr>
 			<td>Respiración</td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Respiracion original.jpg"></p> </td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Respiracion FIR.jpg"></p> </td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Respiracion IIR.jpg"></p> </td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Respiracion bitalino.png"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Respiracion original.jpg"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Respiracion FIR.jpg"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Respiracion IIR.jpg"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Respiracion bitalino.png"></p> </td>
 		</tr>
 		<tr>
 			<td>Post-ejercicio</td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Ejercicio original.jpg"></p> </td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Ejercicio FIR.jpg"></p> </td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Ejercicio IIR.jpg"></p> </td>
-			<td><p align="center"><img src="../../Imagenes/Filtro_bitalino/Ejercicio bitalino.png"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Ejercicio original.jpg"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Ejercicio FIR.jpg"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Ejercicio IIR.jpg"></p> </td>
+			<td><p align="center"><img src="../Imagenes/Filtro_bitalino/Ejercicio bitalino.png"></p> </td>
 		</tr>
 	</table>
 <h2 id="conclu">Conclusiones</h2>
