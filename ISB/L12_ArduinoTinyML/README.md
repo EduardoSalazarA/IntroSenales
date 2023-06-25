@@ -33,3 +33,7 @@
 https://studio.edgeimpulse.com/public/244325/latest
 
 <h2>Video</h2>
+
+https://github.com/EduardoSalazarA/IntroSenales/assets/123878192/9660ae7b-351b-4814-86c6-68ffde4f585d
+
+
