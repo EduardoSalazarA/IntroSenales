@@ -29,6 +29,7 @@
   
 <p align="center"><img src="../Imagenes/edge_impulse.jpg">
 
-<h2>Archivos utilizados</h2>
+<h2>Link de Edge Impulse</h2>
+https://studio.edgeimpulse.com/public/244325/latest
 
 <h2>Video</h2>
