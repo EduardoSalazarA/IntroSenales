@@ -1,6 +1,6 @@
 <h1>Introducción a Señales Biomédicas</h1>
 <p>Este es el repositorio del grupo 12 para el curso Introducción a Señales Biomédicas del ciclo 2023-1.</p>
-<img src="Imagenes/Presentacion/integrantes.jpg" width="884" height="582">
+<img src="https://github.com/EduardoSalazarA/IntroSenales/blob/main/Imagenes/Presentacion/integrantes.jpg" width="884" height="582">
 
 <h1>Tabla de Contenidos</h1>
 <li> <a href="#biosenal"> ¿Qué es una bioseñal? </a> </li>    
