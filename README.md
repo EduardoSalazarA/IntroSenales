@@ -21,10 +21,10 @@ Durante el desarrollo y la implementación de la plataforma interactiva de juego
 Este proyecto representa el esfuerzo y la colaboración de un equipo de estudiantes de ingeniería biomédica en el marco del curso de Introducción a Señales Biomedicas, brindando una solución innovadora y eficaz para la rehabilitación física de jóvenes deportistas.
 
 ## Equipo de desarrollo:
-- Estudiante 1
-- Estudiante 2
-- Estudiante 3
-- Estudiante 4
-- Estudiante 5
+- Ana Cristina Aldana Palomino (ana.aldana@upch.pe)
+- André Jesus Cruces Chancahuaña (andre.cruces@upch.pe) 
+- Sergio Enrique Moreno Elescano (sergio.moreno@upch.pe) 
+- Angel Eduardo Dianderas Jorge (angel.dianderas@upch.pe)
+- Luis Eduardo Salazar Aguilar (luis.salazar.a@upch.pe)
 
 Los cinco estudiantes de ingeniería biomédica se encuentran actualmente concluyendo el curso de Introducción a Señales Biomedicas, y este proyecto fue realizado como parte de su trabajo final.
