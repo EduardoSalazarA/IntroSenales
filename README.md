@@ -10,13 +10,12 @@ Este proyecto, realizado por un equipo de cinco estudiantes de ingeniería biom�
 # Principales hallazgos:
 Durante el desarrollo y la implementación de la plataforma interactiva de juegos para la rehabilitación física, se lograron los siguientes hallazgos:
 
-1. La integración de la adquisición de señales EMG con la retroalimentación en tiempo real en los juegos permitió una terapia personalizada y adaptativa para cada paciente, lo que condujo a una mayor motivación y compromiso durante el proceso de rehabilitación.
 
-2. Los juegos diseñados proporcionaron un estímulo adicional para el paciente, convirtiendo la terapia en un desafío y entretenimiento, lo que resultó en una mayor adherencia al tratamiento y una mejora en los resultados de rehabilitación.
+1. Los juegos diseñados proporcionaron un estímulo adicional para el paciente, convirtiendo la terapia en un desafío y entretenimiento, lo que resultó en una mayor adherencia al tratamiento y una mejora en los resultados de rehabilitación.
 
-3. La medición de la intensidad muscular en tiempo real a través de la EMG permitió un monitoreo objetivo y cuantificable del progreso del paciente, lo que facilitó la evaluación de la efectividad de la terapia y la toma de decisiones informadas por parte del terapeuta.
+2. La medición de la intensidad muscular en tiempo real a través de la EMG permitió un monitoreo objetivo y cuantificable del progreso del paciente, lo que facilitó la evaluación de la efectividad de la terapia y la toma de decisiones informadas por parte del terapeuta.
 
-4. Los jóvenes universitarios deportistas que participaron en este estudio mostraron una respuesta positiva hacia la plataforma interactiva de juegos, expresando su satisfacción con la experiencia de rehabilitación y destacando la importancia de la personalización y el aspecto lúdico en el proceso de terapia.
+3. Los jóvenes que participaron en este estudio mostraron una respuesta positiva hacia la plataforma interactiva de juegos, expresando su satisfacción con la experiencia de rehabilitación y destacando la importancia de la personalización y el aspecto lúdico en el proceso de terapia.
 
 Este proyecto representa el esfuerzo y la colaboración de un equipo de estudiantes de ingeniería biomédica en el marco del curso de Introducción a Señales Biomedicas, brindando una solución innovadora y eficaz para la rehabilitación física de jóvenes deportistas.
 
