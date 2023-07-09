@@ -27,4 +27,5 @@ Este proyecto representa el esfuerzo y la colaboración de un equipo de estudian
 - Angel Eduardo Dianderas Jorge (angel.dianderas@upch.pe)
 - Luis Eduardo Salazar Aguilar (luis.salazar.a@upch.pe)
 
-Los cinco estudiantes de ingeniería biomédica se encuentran actualmente concluyendo el curso de Introducción a Señales Biomedicas, y este proyecto fue realizado como parte de su trabajo final.
+Los cinco estudiantes de ingeniería biomédica se encuentran actualmente concluyendo el curso de Introducción a Señales Biomedicas, y este proyecto fue realizado como parte de su trabajo final. Puedes conocer mas de nosostros en: https://github.com/EduardoSalazarA/IntroSenales/tree/main/ISB/L1_Equipo
+
