@@ -2,8 +2,8 @@
 
 # Resumen:
 Este proyecto, realizado por un equipo de cinco estudiantes de ingeniería biomédica que están concluyendo el curso de Introducción a Señales Biomedicas, se centra en el desarrollo de una plataforma interactiva de juegos para la rehabilitación física de jóvenes universitarios deportistas que han sufrido lesiones en los miembros inferiores. La plataforma utiliza el dispositivo Bitalino para la adquisición de señales electromiográficas (EMG) y se implementa en Python. Los juegos diseñados específicamente para esta terapia ofrecen un desafío y entretenimiento para el paciente, al tiempo que miden la intensidad muscular en tiempo real. El objetivo principal de este proyecto es proporcionar una terapia de rehabilitación más eficaz y eficiente, mejorando así el proceso de recuperación de los pacientes.
-<img src="https://github.com/EduardoSalazarA/IntroSenales/blob/main/Imagenes/Presentacion/bitalino.png" height="400">
-<img src="https://github.com/EduardoSalazarA/IntroSenales/blob/main/Imagenes/Presentacion/Sergio.png" height="400">
+<img src="https://github.com/EduardoSalazarA/IntroSenales/blob/main/Imagenes/Presentacion/bitalino.png" height="300">
+<img src="https://github.com/EduardoSalazarA/IntroSenales/blob/main/Imagenes/Presentacion/Sergio.png" height="300">
 # Principales hallazgos:
 Durante el desarrollo y la implementación de la plataforma interactiva de juegos para la rehabilitación física, se lograron los siguientes hallazgos:
 
