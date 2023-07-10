@@ -1,8 +1,4 @@
-# Título del proyecto: 
-Rehabilitación física a través de electromiografía con uso de Bitalino y Python para jóvenes universitarios deportistas que sufrieron lesiones en miembros inferiores: Plataforma interactiva de juegos para terapia efectiva
-
-# Title (English): 
-Physical Rehabilitation through Electromyography using Bitalino and Python for Young University Athletes with Lower Limb Injuries: Interactive Gaming Platform for Effective Therapy
+#Development of a video game controlled by EMG signals to improve adherence to rehabilitation therapy in patients who have suffered lower body muscle injuries.
 
 # Resumen:
 Este proyecto, realizado por un equipo de cinco estudiantes de ingeniería biomédica que están concluyendo el curso de Introducción a Señales Biomedicas, se centra en el desarrollo de una plataforma interactiva de juegos para la rehabilitación física de jóvenes universitarios deportistas que han sufrido lesiones en los miembros inferiores. La plataforma utiliza el dispositivo Bitalino para la adquisición de señales electromiográficas (EMG) y se implementa en Python. Los juegos diseñados específicamente para esta terapia ofrecen un desafío y entretenimiento para el paciente, al tiempo que miden la intensidad muscular en tiempo real. El objetivo principal de este proyecto es proporcionar una terapia de rehabilitación más eficaz y eficiente, mejorando así el proceso de recuperación de los pacientes.
